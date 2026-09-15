@@ -1,0 +1,36 @@
+schema_version: "1.0"
+project:
+  id: un-transcript-voting-alignment
+  title: "UN Transcript Intelligence and Dynamic Voting Alignment"
+  short_title: "UN Transcript and Voting Alignment"
+  repository: "LystadJS/UN-Transcript-Intelligence-Dynamic-Voting-Alignment"
+  type: technical-project
+  status: active
+  featured: true
+  summary: "Technical project for reproducible United Nations transcript intelligence, structured evidence extraction, and analysis of changing voting alignment across multilateral processes."
+methods:
+  - id: statistical-computing
+    role: primary
+    techniques: [reproducible-computing]
+    usage: "Provides the computational pipeline for collecting, structuring, validating, and linking transcript-derived evidence."
+  - id: network-analysis
+    role: secondary
+    techniques: [dynamic-networks]
+    usage: "Planned analytical layer represents changing actor alignment and relational structure across time."
+  - id: longitudinal-multilevel
+    role: secondary
+    techniques: [longitudinal-analysis]
+    usage: "Planned longitudinal analysis tracks changes in actor positions and alignment across repeated institutional observations."
+domains: []
+contexts: [united-nations, multilateral-policy, open-source-intelligence, applied-analysis]
+geography:
+  scope: global
+  countries: []
+  map_countries: []
+  note: "The project is institution-centered and potentially global; country coverage should be generated from the observed transcript and voting corpus rather than hard-coded."
+keywords: [un-transcripts, voting-alignment, international-institutions, document-intelligence]
+access:
+  repository_visibility: public
+  data_access: none
+  code_access: none
+  disclosure: "The public repository is currently a project shell; substantive data, methodology, code, and empirical results are not yet published there."
