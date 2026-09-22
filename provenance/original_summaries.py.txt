@@ -1,0 +1,139 @@
+"""Deterministic extractive summaries with complete source-object lineage.
+
+Selection is lexical, not semantic validation. Quotes remain quotes; the output
+never turns an unreviewed stance candidate into a factual country position.
+"""
+from collections import Counter
+import math
+import re
+from .sources import identifier
+
+STOP = set('the a an and or to of in on for with is are was were be been this that these those we our i you your it as at by from not have has will would can could should must'.split())
+CUE = re.compile(r'\b(?:call(?:s)? for|urge|demand|recommend|committed|support|concern|priority|essential|propose|emphasize|oppose|reject)\b', re.I)
+
+
+def tokens(text):
+    return [t for t in re.findall(r"[^\W\d_]{3,}", text.lower()) if t not in STOP]
+
+
+def statement_summary(statement, rows, config):
+    """Pick a contiguous passage and expand incomplete source-sentence boundaries."""
+    documents = [set(tokens(r['text'])) for r in rows]
+    counts = Counter(t for d in documents for t in d)
+    ranked = []
+    for index, row in enumerate(rows):
+        words = tokens(row['text'])
+        if len(words) < 5:
+            continue
+        rarity = sum(math.log((len(rows) + 1) / (counts[w] + 1)) + 1 for w in set(words)) / max(1, len(words))
+        own_commitment = bool(re.search(r'\b(?:we|our delegation|my delegation)\s+(?:also |strongly |firmly |once again )?(?:call|urge|demand|support|oppose|reject|propose|remain committed)\b', row['text'], re.I))
+        score = rarity + min(3, len(CUE.findall(row['text']))) * .7 + 1.2 * own_commitment + .12 / (index + 1)
+        if re.search(r'^(?:thank you|I thank|Mr\.? President|Madam Chair)', row['text'], re.I) and len(words) < 16:
+            score -= 2
+        ranked.append((score, -index, index))
+    index = max(ranked)[2] if ranked else 0
+    start = end = index
+    if start > 0 and re.search(r'\b(?:it|its|they|their|this|these|those)\b', ' '.join(rows[index]['text'].split()[:12]), re.I):
+        start -= 1
+    while start > 0 and (not re.search(r'[.!?][”\"]?\s*$', rows[start - 1]['text']) or re.match(r'\s*(?:and|but|however|this|these|it|they)\b', rows[start]['text'], re.I)):
+        start -= 1
+        if index - start >= 4:
+            break
+    while end + 1 < len(rows) and not re.search(r'[.!?][”\"]?\s*$', rows[end]['text']):
+        end += 1
+        if end - index >= 4:
+            break
+    selected = rows[start:end + 1]
+    # Add the following sentence for context if the excerpt remains compact.
+    if end + 1 < len(rows) and sum(len(r['text'].split()) for r in selected) < config['excerpt_target_words'] // 2:
+        j = end + 1
+        while j < len(rows):
+            selected.append(rows[j])
+            if re.search(r'[.!?][”\"]?\s*$', rows[j]['text']) or j - end >= 4:
+                break
+            j += 1
+    ids = [r['evidence_id'] for r in selected]
+    text = ' '.join(r['text'] for r in selected)
+    return {'summary_id': identifier('statement_summary', statement['statement_id'], ids, config),
+            'level': 'STATEMENT', 'statement_id': statement['statement_id'], 'meeting_id': statement['meeting_id'],
+            'date': statement['date'], 'method': 'EXTRACTIVE', 'epistemic_status': 'OBSERVED_TRANSCRIPT_TEXT',
+            'speaker_label_from_source': statement['speaker_label'], 'source_role': (statement['speaker'] or {}).get('function'),
+            'source_affiliation': (statement['speaker'] or {}).get('affiliation_full'),
+            'text': text, 'evidence_ids': ids, 'source_sha256': statement['source_sha256'],
+            'source_url': statement['source_url'], 'source_statement_pointer': statement['source_pointer'],
+            'selection_score': round(max(ranked)[0], 6) if ranked else 0,
+            'context_available': True, 'not_exhaustive': True, 'political_position_asserted': False}
+
+
+def hierarchical(meetings, statements, evidence, config, review_snapshot):
+    by_evidence = {r['evidence_id']: r for r in evidence}
+    by_statement = {s['statement_id']: s for s in statements}
+    summaries = [statement_summary(s, [by_evidence[e] for e in s['evidence_ids']], config) for s in statements]
+    by_summary = {s['summary_id']: s for s in summaries}
+    affected = {}
+    for item in review_snapshot:
+        for e in item['evidence_ids']:
+            if e in by_evidence:
+                affected.setdefault(by_evidence[e]['statement_id'], set()).add(item['review_id'])
+    for summary in summaries:
+        summary['review_ids'] = sorted(affected.get(summary['statement_id'], set()))
+    meeting_summaries = []
+    for meeting in meetings:
+        candidates = [s for s in summaries if s['meeting_id'] == meeting['meeting_id']]
+        ranked = sorted(candidates, key=lambda s: (-s['selection_score'], s['statement_id']))
+        selected, used = [], set()
+        for summary in ranked:
+            st = by_statement[summary['statement_id']]
+            if st['word_count'] < 20:
+                continue
+            key = (summary['source_affiliation'] or summary['speaker_label_from_source'])
+            if key in used:
+                continue
+            selected.append(summary); used.add(key)
+            if len(selected) == config['meeting_highlights']:
+                break
+        if not selected:
+            selected = ranked[:config['meeting_highlights']]
+        meeting_summaries.append({'summary_id': identifier('meeting_summary', meeting['source_sha256'], [s['summary_id'] for s in selected]),
+            'level': 'MEETING', 'meeting_id': meeting['meeting_id'], 'slug': meeting['slug'], 'title': meeting['title'],
+            'date': meeting['date'], 'method': 'EXTRACTIVE', 'epistemic_status': 'OBSERVED_TRANSCRIPT_TEXT',
+            'statement_count': len(candidates), 'highlight_count': len(selected),
+            'child_summary_ids': [s['summary_id'] for s in selected],
+            'all_statement_summary_ids': [s['summary_id'] for s in candidates],
+            'evidence_ids': list(dict.fromkeys(e for s in selected for e in s['evidence_ids'])),
+            'full_coverage_available': True, 'source_url': meeting['source_url']})
+    daily = []
+    for day in sorted({m['date'] for m in meetings}):
+        children = [m for m in meeting_summaries if m['date'] == day]
+        # No cross-day or cross-meeting agreement is inferred from lexical overlap.
+        daily.append({'summary_id': identifier('daily_summary', day, [m['summary_id'] for m in children]),
+            'level': 'DAILY', 'date': day, 'method': 'EXTRACTIVE', 'epistemic_status': 'OBSERVED_TRANSCRIPT_TEXT',
+            'meeting_count': len(children), 'child_summary_ids': [m['summary_id'] for m in children],
+            'evidence_ids': list(dict.fromkeys(e for m in children for e in m['evidence_ids'])),
+            'scope': 'Collected recordings for this date; not all UN meetings unless collection coverage proves it.'})
+    verify_summaries(summaries, meeting_summaries, daily, evidence)
+    return {'statements': summaries, 'meetings': meeting_summaries, 'daily': daily}
+
+
+def verify_summaries(statements, meetings, daily, evidence):
+    index = {r['evidence_id']: r for r in evidence}
+    if len(index) != len(evidence):
+        raise ValueError('Duplicate evidence ID')
+    for s in statements:
+        rows = [index[e] for e in s['evidence_ids']]
+        if not rows or s['text'] != ' '.join(r['text'] for r in rows) or any(r['statement_id'] != s['statement_id'] or r['source_sha256'] != s['source_sha256'] for r in rows):
+            raise ValueError('Summary contains unsupported or cross-speaker evidence')
+        numbers = [int(r['evidence_id'].rsplit(':', 1)[1]) for r in rows]
+        if numbers != list(range(numbers[0], numbers[-1] + 1)):
+            raise ValueError('Summary excerpt must be contiguous')
+    child = {s['summary_id']: s for s in statements}
+    for parent in meetings:
+        expected = list(dict.fromkeys(e for cid in parent['child_summary_ids'] for e in child[cid]['evidence_ids']))
+        if parent['evidence_ids'] != expected or any(child[c]['meeting_id'] != parent['meeting_id'] for c in parent['child_summary_ids']):
+            raise ValueError('Meeting summary lineage mismatch')
+    child = {s['summary_id']: s for s in meetings}
+    for parent in daily:
+        expected = list(dict.fromkeys(e for cid in parent['child_summary_ids'] for e in child[cid]['evidence_ids']))
+        if parent['evidence_ids'] != expected or any(child[c]['date'] != parent['date'] for c in parent['child_summary_ids']):
+            raise ValueError('Daily summary lineage mismatch')
+    return {'statement_summaries_verified': len(statements), 'meeting_summaries_verified': len(meetings), 'daily_summaries_verified': len(daily)}

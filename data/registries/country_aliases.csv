@@ -1,0 +1,1245 @@
+alias_id,entity_id,iso_alpha3,alias,normalized_alias,alias_type,match_priority,safe_for_unstructured_text,ambiguity_note
+ALIAS_00001,M49_533,ABW,Aruba,aruba,canonical_name,1,True,
+ALIAS_00002,M49_533,ABW,ABW,abw,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00003,M49_533,ABW,AW,aw,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00004,M49_533,ABW,533,533,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00005,M49_004,AFG,Afghanistan,afghanistan,canonical_name,1,True,
+ALIAS_00006,M49_004,AFG,Islamic Republic of Afghanistan,islamic republic of afghanistan,official_name,2,True,
+ALIAS_00007,M49_004,AFG,AFG,afg,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00008,M49_004,AFG,AF,af,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00009,M49_004,AFG,004,004,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00010,M49_024,AGO,Angola,angola,canonical_name,1,True,
+ALIAS_00011,M49_024,AGO,Republic of Angola,republic of angola,official_name,2,True,
+ALIAS_00012,M49_024,AGO,AGO,ago,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00013,M49_024,AGO,AO,ao,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00014,M49_024,AGO,024,024,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00015,M49_660,AIA,Anguilla,anguilla,canonical_name,1,True,
+ALIAS_00016,M49_660,AIA,AIA,aia,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00017,M49_660,AIA,AI,ai,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00018,M49_660,AIA,660,660,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00019,M49_248,ALA,Åland Islands,aland islands,canonical_name,1,True,
+ALIAS_00020,M49_248,ALA,ALA,ala,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00021,M49_248,ALA,AX,ax,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00022,M49_248,ALA,248,248,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00023,M49_008,ALB,Albania,albania,canonical_name,1,True,
+ALIAS_00024,M49_008,ALB,Republic of Albania,republic of albania,official_name,2,True,
+ALIAS_00025,M49_008,ALB,ALB,alb,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00026,M49_008,ALB,AL,al,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00027,M49_008,ALB,008,008,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00028,M49_020,AND,Andorra,andorra,canonical_name,1,True,
+ALIAS_00029,M49_020,AND,Principality of Andorra,principality of andorra,official_name,2,True,
+ALIAS_00030,M49_020,AND,AND,and,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00031,M49_020,AND,AD,ad,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00032,M49_020,AND,020,020,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00033,M49_784,ARE,United Arab Emirates,united arab emirates,canonical_name,1,True,
+ALIAS_00034,M49_784,ARE,ARE,are,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00035,M49_784,ARE,AE,ae,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00036,M49_784,ARE,784,784,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00037,M49_784,ARE,UAE,uae,curated_alias,1,False,Potentially ambiguous or overly broad; require context-aware matching.
+ALIAS_00038,M49_032,ARG,Argentina,argentina,canonical_name,1,True,
+ALIAS_00039,M49_032,ARG,Argentine Republic,argentine republic,official_name,2,True,
+ALIAS_00040,M49_032,ARG,ARG,arg,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00041,M49_032,ARG,AR,ar,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00042,M49_032,ARG,032,032,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00043,M49_051,ARM,Armenia,armenia,canonical_name,1,True,
+ALIAS_00044,M49_051,ARM,Republic of Armenia,republic of armenia,official_name,2,True,
+ALIAS_00045,M49_051,ARM,ARM,arm,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00046,M49_051,ARM,AM,am,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00047,M49_051,ARM,051,051,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00048,M49_016,ASM,American Samoa,american samoa,canonical_name,1,True,
+ALIAS_00049,M49_016,ASM,ASM,asm,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00050,M49_016,ASM,AS,as,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00051,M49_016,ASM,016,016,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00052,M49_010,ATA,Antarctica,antarctica,canonical_name,1,True,
+ALIAS_00053,M49_010,ATA,ATA,ata,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00054,M49_010,ATA,AQ,aq,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00055,M49_010,ATA,010,010,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00056,M49_260,ATF,French Southern Territories,french southern territories,canonical_name,1,True,
+ALIAS_00057,M49_260,ATF,ATF,atf,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00058,M49_260,ATF,TF,tf,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00059,M49_260,ATF,260,260,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00060,M49_028,ATG,Antigua and Barbuda,antigua and barbuda,canonical_name,1,True,
+ALIAS_00061,M49_028,ATG,ATG,atg,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00062,M49_028,ATG,AG,ag,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00063,M49_028,ATG,028,028,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00064,M49_036,AUS,Australia,australia,canonical_name,1,True,
+ALIAS_00065,M49_036,AUS,AUS,aus,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00066,M49_036,AUS,AU,au,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00067,M49_036,AUS,036,036,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00068,M49_040,AUT,Austria,austria,canonical_name,1,True,
+ALIAS_00069,M49_040,AUT,Republic of Austria,republic of austria,official_name,2,True,
+ALIAS_00070,M49_040,AUT,AUT,aut,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00071,M49_040,AUT,AT,at,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00072,M49_040,AUT,040,040,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00073,M49_031,AZE,Azerbaijan,azerbaijan,canonical_name,1,True,
+ALIAS_00074,M49_031,AZE,Republic of Azerbaijan,republic of azerbaijan,official_name,2,True,
+ALIAS_00075,M49_031,AZE,AZE,aze,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00076,M49_031,AZE,AZ,az,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00077,M49_031,AZE,031,031,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00078,M49_108,BDI,Burundi,burundi,canonical_name,1,True,
+ALIAS_00079,M49_108,BDI,Republic of Burundi,republic of burundi,official_name,2,True,
+ALIAS_00080,M49_108,BDI,BDI,bdi,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00081,M49_108,BDI,BI,bi,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00082,M49_108,BDI,108,108,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00083,M49_056,BEL,Belgium,belgium,canonical_name,1,True,
+ALIAS_00084,M49_056,BEL,Kingdom of Belgium,kingdom of belgium,official_name,2,True,
+ALIAS_00085,M49_056,BEL,BEL,bel,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00086,M49_056,BEL,BE,be,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00087,M49_056,BEL,056,056,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00088,M49_204,BEN,Benin,benin,canonical_name,1,True,
+ALIAS_00089,M49_204,BEN,Republic of Benin,republic of benin,official_name,2,True,
+ALIAS_00090,M49_204,BEN,BEN,ben,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00091,M49_204,BEN,BJ,bj,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00092,M49_204,BEN,204,204,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00093,M49_535,BES,"Bonaire, Sint Eustatius and Saba",bonaire sint eustatius and saba,canonical_name,1,True,
+ALIAS_00094,M49_535,BES,"Bonaire, Sint Eustatius and Saba",bonaire sint eustatius and saba,official_name,2,True,
+ALIAS_00095,M49_535,BES,BES,bes,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00096,M49_535,BES,BQ,bq,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00097,M49_535,BES,535,535,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00098,M49_854,BFA,Burkina Faso,burkina faso,canonical_name,1,True,
+ALIAS_00099,M49_854,BFA,BFA,bfa,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00100,M49_854,BFA,BF,bf,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00101,M49_854,BFA,854,854,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00102,M49_050,BGD,Bangladesh,bangladesh,canonical_name,1,True,
+ALIAS_00103,M49_050,BGD,People's Republic of Bangladesh,people s republic of bangladesh,official_name,2,True,
+ALIAS_00104,M49_050,BGD,BGD,bgd,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00105,M49_050,BGD,BD,bd,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00106,M49_050,BGD,050,050,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00107,M49_100,BGR,Bulgaria,bulgaria,canonical_name,1,True,
+ALIAS_00108,M49_100,BGR,Republic of Bulgaria,republic of bulgaria,official_name,2,True,
+ALIAS_00109,M49_100,BGR,BGR,bgr,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00110,M49_100,BGR,BG,bg,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00111,M49_100,BGR,100,100,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00112,M49_048,BHR,Bahrain,bahrain,canonical_name,1,True,
+ALIAS_00113,M49_048,BHR,Kingdom of Bahrain,kingdom of bahrain,official_name,2,True,
+ALIAS_00114,M49_048,BHR,BHR,bhr,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00115,M49_048,BHR,BH,bh,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00116,M49_048,BHR,048,048,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00117,M49_044,BHS,Bahamas,bahamas,canonical_name,1,True,
+ALIAS_00118,M49_044,BHS,Commonwealth of the Bahamas,commonwealth of the bahamas,official_name,2,True,
+ALIAS_00119,M49_044,BHS,BHS,bhs,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00120,M49_044,BHS,BS,bs,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00121,M49_044,BHS,044,044,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00122,M49_070,BIH,Bosnia and Herzegovina,bosnia and herzegovina,canonical_name,1,True,
+ALIAS_00123,M49_070,BIH,Republic of Bosnia and Herzegovina,republic of bosnia and herzegovina,official_name,2,True,
+ALIAS_00124,M49_070,BIH,BIH,bih,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00125,M49_070,BIH,BA,ba,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00126,M49_070,BIH,070,070,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00127,M49_652,BLM,Saint Barthélemy,saint barthelemy,canonical_name,1,True,
+ALIAS_00128,M49_652,BLM,BLM,blm,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00129,M49_652,BLM,BL,bl,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00130,M49_652,BLM,652,652,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00131,M49_112,BLR,Belarus,belarus,canonical_name,1,True,
+ALIAS_00132,M49_112,BLR,Republic of Belarus,republic of belarus,official_name,2,True,
+ALIAS_00133,M49_112,BLR,BLR,blr,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00134,M49_112,BLR,BY,by,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00135,M49_112,BLR,112,112,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00136,M49_084,BLZ,Belize,belize,canonical_name,1,True,
+ALIAS_00137,M49_084,BLZ,BLZ,blz,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00138,M49_084,BLZ,BZ,bz,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00139,M49_084,BLZ,084,084,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00140,M49_060,BMU,Bermuda,bermuda,canonical_name,1,True,
+ALIAS_00141,M49_060,BMU,BMU,bmu,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00142,M49_060,BMU,BM,bm,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00143,M49_060,BMU,060,060,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00144,M49_068,BOL,Bolivia (Plurinational State of),bolivia plurinational state of,canonical_name,1,True,
+ALIAS_00145,M49_068,BOL,"Bolivia, Plurinational State of",bolivia plurinational state of,iso_name,2,True,
+ALIAS_00146,M49_068,BOL,Plurinational State of Bolivia,plurinational state of bolivia,official_name,2,True,
+ALIAS_00147,M49_068,BOL,Bolivia,bolivia,common_name,2,True,
+ALIAS_00148,M49_068,BOL,BOL,bol,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00149,M49_068,BOL,BO,bo,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00150,M49_068,BOL,068,068,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00151,M49_068,BOL,Bolivia,bolivia,curated_alias,1,True,
+ALIAS_00152,M49_076,BRA,Brazil,brazil,canonical_name,1,True,
+ALIAS_00153,M49_076,BRA,Federative Republic of Brazil,federative republic of brazil,official_name,2,True,
+ALIAS_00154,M49_076,BRA,BRA,bra,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00155,M49_076,BRA,BR,br,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00156,M49_076,BRA,076,076,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00157,M49_052,BRB,Barbados,barbados,canonical_name,1,True,
+ALIAS_00158,M49_052,BRB,BRB,brb,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00159,M49_052,BRB,BB,bb,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00160,M49_052,BRB,052,052,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00161,M49_096,BRN,Brunei Darussalam,brunei darussalam,canonical_name,1,True,
+ALIAS_00162,M49_096,BRN,BRN,brn,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00163,M49_096,BRN,BN,bn,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00164,M49_096,BRN,096,096,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00165,M49_096,BRN,Brunei,brunei,curated_alias,1,True,
+ALIAS_00166,M49_064,BTN,Bhutan,bhutan,canonical_name,1,True,
+ALIAS_00167,M49_064,BTN,Kingdom of Bhutan,kingdom of bhutan,official_name,2,True,
+ALIAS_00168,M49_064,BTN,BTN,btn,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00169,M49_064,BTN,BT,bt,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00170,M49_064,BTN,064,064,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00171,M49_074,BVT,Bouvet Island,bouvet island,canonical_name,1,True,
+ALIAS_00172,M49_074,BVT,BVT,bvt,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00173,M49_074,BVT,BV,bv,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00174,M49_074,BVT,074,074,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00175,M49_072,BWA,Botswana,botswana,canonical_name,1,True,
+ALIAS_00176,M49_072,BWA,Republic of Botswana,republic of botswana,official_name,2,True,
+ALIAS_00177,M49_072,BWA,BWA,bwa,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00178,M49_072,BWA,BW,bw,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00179,M49_072,BWA,072,072,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00180,M49_140,CAF,Central African Republic,central african republic,canonical_name,1,True,
+ALIAS_00181,M49_140,CAF,CAF,caf,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00182,M49_140,CAF,CF,cf,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00183,M49_140,CAF,140,140,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00184,M49_124,CAN,Canada,canada,canonical_name,1,True,
+ALIAS_00185,M49_124,CAN,CAN,can,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00186,M49_124,CAN,CA,ca,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00187,M49_124,CAN,124,124,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00188,M49_166,CCK,Cocos (Keeling) Islands,cocos keeling islands,canonical_name,1,True,
+ALIAS_00189,M49_166,CCK,CCK,cck,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00190,M49_166,CCK,CC,cc,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00191,M49_166,CCK,166,166,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00192,M49_756,CHE,Switzerland,switzerland,canonical_name,1,True,
+ALIAS_00193,M49_756,CHE,Swiss Confederation,swiss confederation,official_name,2,True,
+ALIAS_00194,M49_756,CHE,CHE,che,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00195,M49_756,CHE,CH,ch,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00196,M49_756,CHE,756,756,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00197,M49_152,CHL,Chile,chile,canonical_name,1,True,
+ALIAS_00198,M49_152,CHL,Republic of Chile,republic of chile,official_name,2,True,
+ALIAS_00199,M49_152,CHL,CHL,chl,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00200,M49_152,CHL,CL,cl,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00201,M49_152,CHL,152,152,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00202,M49_156,CHN,China,china,canonical_name,1,True,
+ALIAS_00203,M49_156,CHN,People's Republic of China,people s republic of china,official_name,2,True,
+ALIAS_00204,M49_156,CHN,CHN,chn,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00205,M49_156,CHN,CN,cn,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00206,M49_156,CHN,156,156,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00207,M49_156,CHN,People's Republic of China,people s republic of china,curated_alias,1,True,
+ALIAS_00208,M49_156,CHN,PRC,prc,curated_alias,1,False,Potentially ambiguous or overly broad; require context-aware matching.
+ALIAS_00209,M49_384,CIV,Côte d’Ivoire,cote d ivoire,canonical_name,1,True,
+ALIAS_00210,M49_384,CIV,Côte d'Ivoire,cote d ivoire,iso_name,2,True,
+ALIAS_00211,M49_384,CIV,Republic of Côte d'Ivoire,republic of cote d ivoire,official_name,2,True,
+ALIAS_00212,M49_384,CIV,CIV,civ,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00213,M49_384,CIV,CI,ci,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00214,M49_384,CIV,384,384,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00215,M49_384,CIV,Cote d'Ivoire,cote d ivoire,curated_alias,1,True,
+ALIAS_00216,M49_384,CIV,Ivory Coast,ivory coast,curated_alias,1,True,
+ALIAS_00217,M49_120,CMR,Cameroon,cameroon,canonical_name,1,True,
+ALIAS_00218,M49_120,CMR,Republic of Cameroon,republic of cameroon,official_name,2,True,
+ALIAS_00219,M49_120,CMR,CMR,cmr,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00220,M49_120,CMR,CM,cm,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00221,M49_120,CMR,120,120,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00222,M49_180,COD,Democratic Republic of the Congo,democratic republic of the congo,canonical_name,1,True,
+ALIAS_00223,M49_180,COD,"Congo, The Democratic Republic of the",congo the democratic republic of the,iso_name,2,True,
+ALIAS_00224,M49_180,COD,COD,cod,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00225,M49_180,COD,CD,cd,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00226,M49_180,COD,180,180,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00227,M49_180,COD,DR Congo,dr congo,curated_alias,1,True,
+ALIAS_00228,M49_180,COD,DRC,drc,curated_alias,1,False,Potentially ambiguous or overly broad; require context-aware matching.
+ALIAS_00229,M49_180,COD,Congo-Kinshasa,congo kinshasa,curated_alias,1,True,
+ALIAS_00230,M49_178,COG,Congo,congo,canonical_name,1,True,
+ALIAS_00231,M49_178,COG,Republic of the Congo,republic of the congo,official_name,2,True,
+ALIAS_00232,M49_178,COG,COG,cog,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00233,M49_178,COG,CG,cg,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00234,M49_178,COG,178,178,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00235,M49_178,COG,Republic of the Congo,republic of the congo,curated_alias,1,True,
+ALIAS_00236,M49_178,COG,Congo-Brazzaville,congo brazzaville,curated_alias,1,True,
+ALIAS_00237,M49_184,COK,Cook Islands,cook islands,canonical_name,1,True,
+ALIAS_00238,M49_184,COK,COK,cok,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00239,M49_184,COK,CK,ck,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00240,M49_184,COK,184,184,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00241,M49_170,COL,Colombia,colombia,canonical_name,1,True,
+ALIAS_00242,M49_170,COL,Republic of Colombia,republic of colombia,official_name,2,True,
+ALIAS_00243,M49_170,COL,COL,col,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00244,M49_170,COL,CO,co,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00245,M49_170,COL,170,170,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00246,M49_174,COM,Comoros,comoros,canonical_name,1,True,
+ALIAS_00247,M49_174,COM,Union of the Comoros,union of the comoros,official_name,2,True,
+ALIAS_00248,M49_174,COM,COM,com,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00249,M49_174,COM,KM,km,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00250,M49_174,COM,174,174,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00251,M49_132,CPV,Cabo Verde,cabo verde,canonical_name,1,True,
+ALIAS_00252,M49_132,CPV,Republic of Cabo Verde,republic of cabo verde,official_name,2,True,
+ALIAS_00253,M49_132,CPV,CPV,cpv,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00254,M49_132,CPV,CV,cv,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00255,M49_132,CPV,132,132,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00256,M49_132,CPV,Cape Verde,cape verde,curated_alias,1,True,
+ALIAS_00257,M49_188,CRI,Costa Rica,costa rica,canonical_name,1,True,
+ALIAS_00258,M49_188,CRI,Republic of Costa Rica,republic of costa rica,official_name,2,True,
+ALIAS_00259,M49_188,CRI,CRI,cri,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00260,M49_188,CRI,CR,cr,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00261,M49_188,CRI,188,188,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00262,M49_192,CUB,Cuba,cuba,canonical_name,1,True,
+ALIAS_00263,M49_192,CUB,Republic of Cuba,republic of cuba,official_name,2,True,
+ALIAS_00264,M49_192,CUB,CUB,cub,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00265,M49_192,CUB,CU,cu,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00266,M49_192,CUB,192,192,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00267,M49_531,CUW,Curaçao,curacao,canonical_name,1,True,
+ALIAS_00268,M49_531,CUW,Curaçao,curacao,official_name,2,True,
+ALIAS_00269,M49_531,CUW,CUW,cuw,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00270,M49_531,CUW,CW,cw,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00271,M49_531,CUW,531,531,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00272,M49_162,CXR,Christmas Island,christmas island,canonical_name,1,True,
+ALIAS_00273,M49_162,CXR,CXR,cxr,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00274,M49_162,CXR,CX,cx,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00275,M49_162,CXR,162,162,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00276,M49_136,CYM,Cayman Islands,cayman islands,canonical_name,1,True,
+ALIAS_00277,M49_136,CYM,CYM,cym,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00278,M49_136,CYM,KY,ky,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00279,M49_136,CYM,136,136,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00280,M49_196,CYP,Cyprus,cyprus,canonical_name,1,True,
+ALIAS_00281,M49_196,CYP,Republic of Cyprus,republic of cyprus,official_name,2,True,
+ALIAS_00282,M49_196,CYP,CYP,cyp,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00283,M49_196,CYP,CY,cy,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00284,M49_196,CYP,196,196,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00285,M49_203,CZE,Czechia,czechia,canonical_name,1,True,
+ALIAS_00286,M49_203,CZE,Czech Republic,czech republic,official_name,2,True,
+ALIAS_00287,M49_203,CZE,CZE,cze,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00288,M49_203,CZE,CZ,cz,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00289,M49_203,CZE,203,203,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00290,M49_203,CZE,Czech Republic,czech republic,curated_alias,1,True,
+ALIAS_00291,M49_276,DEU,Germany,germany,canonical_name,1,True,
+ALIAS_00292,M49_276,DEU,Federal Republic of Germany,federal republic of germany,official_name,2,True,
+ALIAS_00293,M49_276,DEU,DEU,deu,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00294,M49_276,DEU,DE,de,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00295,M49_276,DEU,276,276,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00296,M49_262,DJI,Djibouti,djibouti,canonical_name,1,True,
+ALIAS_00297,M49_262,DJI,Republic of Djibouti,republic of djibouti,official_name,2,True,
+ALIAS_00298,M49_262,DJI,DJI,dji,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00299,M49_262,DJI,DJ,dj,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00300,M49_262,DJI,262,262,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00301,M49_212,DMA,Dominica,dominica,canonical_name,1,True,
+ALIAS_00302,M49_212,DMA,Commonwealth of Dominica,commonwealth of dominica,official_name,2,True,
+ALIAS_00303,M49_212,DMA,DMA,dma,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00304,M49_212,DMA,DM,dm,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00305,M49_212,DMA,212,212,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00306,M49_208,DNK,Denmark,denmark,canonical_name,1,True,
+ALIAS_00307,M49_208,DNK,Kingdom of Denmark,kingdom of denmark,official_name,2,True,
+ALIAS_00308,M49_208,DNK,DNK,dnk,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00309,M49_208,DNK,DK,dk,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00310,M49_208,DNK,208,208,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00311,M49_214,DOM,Dominican Republic,dominican republic,canonical_name,1,True,
+ALIAS_00312,M49_214,DOM,DOM,dom,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00313,M49_214,DOM,DO,do,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00314,M49_214,DOM,214,214,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00315,M49_012,DZA,Algeria,algeria,canonical_name,1,True,
+ALIAS_00316,M49_012,DZA,People's Democratic Republic of Algeria,people s democratic republic of algeria,official_name,2,True,
+ALIAS_00317,M49_012,DZA,DZA,dza,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00318,M49_012,DZA,DZ,dz,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00319,M49_012,DZA,012,012,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00320,M49_218,ECU,Ecuador,ecuador,canonical_name,1,True,
+ALIAS_00321,M49_218,ECU,Republic of Ecuador,republic of ecuador,official_name,2,True,
+ALIAS_00322,M49_218,ECU,ECU,ecu,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00323,M49_218,ECU,EC,ec,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00324,M49_218,ECU,218,218,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00325,M49_818,EGY,Egypt,egypt,canonical_name,1,True,
+ALIAS_00326,M49_818,EGY,Arab Republic of Egypt,arab republic of egypt,official_name,2,True,
+ALIAS_00327,M49_818,EGY,EGY,egy,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00328,M49_818,EGY,EG,eg,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00329,M49_818,EGY,818,818,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00330,M49_232,ERI,Eritrea,eritrea,canonical_name,1,True,
+ALIAS_00331,M49_232,ERI,the State of Eritrea,the state of eritrea,official_name,2,True,
+ALIAS_00332,M49_232,ERI,ERI,eri,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00333,M49_232,ERI,ER,er,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00334,M49_232,ERI,232,232,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00335,M49_732,ESH,Western Sahara,western sahara,canonical_name,1,True,
+ALIAS_00336,M49_732,ESH,ESH,esh,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00337,M49_732,ESH,EH,eh,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00338,M49_732,ESH,732,732,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00339,M49_724,ESP,Spain,spain,canonical_name,1,True,
+ALIAS_00340,M49_724,ESP,Kingdom of Spain,kingdom of spain,official_name,2,True,
+ALIAS_00341,M49_724,ESP,ESP,esp,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00342,M49_724,ESP,ES,es,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00343,M49_724,ESP,724,724,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00344,M49_233,EST,Estonia,estonia,canonical_name,1,True,
+ALIAS_00345,M49_233,EST,Republic of Estonia,republic of estonia,official_name,2,True,
+ALIAS_00346,M49_233,EST,EST,est,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00347,M49_233,EST,EE,ee,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00348,M49_233,EST,233,233,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00349,M49_231,ETH,Ethiopia,ethiopia,canonical_name,1,True,
+ALIAS_00350,M49_231,ETH,Federal Democratic Republic of Ethiopia,federal democratic republic of ethiopia,official_name,2,True,
+ALIAS_00351,M49_231,ETH,ETH,eth,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00352,M49_231,ETH,ET,et,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00353,M49_231,ETH,231,231,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00354,M49_246,FIN,Finland,finland,canonical_name,1,True,
+ALIAS_00355,M49_246,FIN,Republic of Finland,republic of finland,official_name,2,True,
+ALIAS_00356,M49_246,FIN,FIN,fin,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00357,M49_246,FIN,FI,fi,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00358,M49_246,FIN,246,246,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00359,M49_242,FJI,Fiji,fiji,canonical_name,1,True,
+ALIAS_00360,M49_242,FJI,Republic of Fiji,republic of fiji,official_name,2,True,
+ALIAS_00361,M49_242,FJI,FJI,fji,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00362,M49_242,FJI,FJ,fj,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00363,M49_242,FJI,242,242,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00364,M49_238,FLK,Falkland Islands (Malvinas),falkland islands malvinas,canonical_name,1,True,
+ALIAS_00365,M49_238,FLK,FLK,flk,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00366,M49_238,FLK,FK,fk,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00367,M49_238,FLK,238,238,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00368,M49_250,FRA,France,france,canonical_name,1,True,
+ALIAS_00369,M49_250,FRA,French Republic,french republic,official_name,2,True,
+ALIAS_00370,M49_250,FRA,FRA,fra,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00371,M49_250,FRA,FR,fr,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00372,M49_250,FRA,250,250,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00373,M49_234,FRO,Faroe Islands,faroe islands,canonical_name,1,True,
+ALIAS_00374,M49_234,FRO,FRO,fro,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00375,M49_234,FRO,FO,fo,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00376,M49_234,FRO,234,234,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00377,M49_583,FSM,Micronesia (Federated States of),micronesia federated states of,canonical_name,1,True,
+ALIAS_00378,M49_583,FSM,"Micronesia, Federated States of",micronesia federated states of,iso_name,2,True,
+ALIAS_00379,M49_583,FSM,Federated States of Micronesia,federated states of micronesia,official_name,2,True,
+ALIAS_00380,M49_583,FSM,FSM,fsm,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00381,M49_583,FSM,FM,fm,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00382,M49_583,FSM,583,583,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00383,M49_583,FSM,Federated States of Micronesia,federated states of micronesia,curated_alias,1,True,
+ALIAS_00384,M49_583,FSM,Micronesia,micronesia,curated_alias,1,False,Potentially ambiguous or overly broad; require context-aware matching.
+ALIAS_00385,M49_266,GAB,Gabon,gabon,canonical_name,1,True,
+ALIAS_00386,M49_266,GAB,Gabonese Republic,gabonese republic,official_name,2,True,
+ALIAS_00387,M49_266,GAB,GAB,gab,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00388,M49_266,GAB,GA,ga,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00389,M49_266,GAB,266,266,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00390,M49_826,GBR,United Kingdom of Great Britain and Northern Ireland,united kingdom of great britain and northern ireland,canonical_name,1,True,
+ALIAS_00391,M49_826,GBR,United Kingdom,united kingdom,iso_name,2,True,
+ALIAS_00392,M49_826,GBR,United Kingdom of Great Britain and Northern Ireland,united kingdom of great britain and northern ireland,official_name,2,True,
+ALIAS_00393,M49_826,GBR,GBR,gbr,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00394,M49_826,GBR,GB,gb,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00395,M49_826,GBR,826,826,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00396,M49_826,GBR,United Kingdom,united kingdom,curated_alias,1,True,
+ALIAS_00397,M49_826,GBR,UK,uk,curated_alias,1,False,Potentially ambiguous or overly broad; require context-aware matching.
+ALIAS_00398,M49_826,GBR,U.K.,u k,curated_alias,1,False,Potentially ambiguous or overly broad; require context-aware matching.
+ALIAS_00399,M49_826,GBR,Britain,britain,curated_alias,1,True,
+ALIAS_00400,M49_826,GBR,Great Britain,great britain,curated_alias,1,True,
+ALIAS_00401,M49_268,GEO,Georgia,georgia,canonical_name,1,True,
+ALIAS_00402,M49_268,GEO,GEO,geo,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00403,M49_268,GEO,GE,ge,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00404,M49_268,GEO,268,268,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00405,M49_831,GGY,Guernsey,guernsey,canonical_name,1,True,
+ALIAS_00406,M49_831,GGY,GGY,ggy,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00407,M49_831,GGY,GG,gg,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00408,M49_831,GGY,831,831,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00409,M49_288,GHA,Ghana,ghana,canonical_name,1,True,
+ALIAS_00410,M49_288,GHA,Republic of Ghana,republic of ghana,official_name,2,True,
+ALIAS_00411,M49_288,GHA,GHA,gha,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00412,M49_288,GHA,GH,gh,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00413,M49_288,GHA,288,288,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00414,M49_292,GIB,Gibraltar,gibraltar,canonical_name,1,True,
+ALIAS_00415,M49_292,GIB,GIB,gib,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00416,M49_292,GIB,GI,gi,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00417,M49_292,GIB,292,292,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00418,M49_324,GIN,Guinea,guinea,canonical_name,1,True,
+ALIAS_00419,M49_324,GIN,Republic of Guinea,republic of guinea,official_name,2,True,
+ALIAS_00420,M49_324,GIN,GIN,gin,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00421,M49_324,GIN,GN,gn,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00422,M49_324,GIN,324,324,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00423,M49_312,GLP,Guadeloupe,guadeloupe,canonical_name,1,True,
+ALIAS_00424,M49_312,GLP,GLP,glp,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00425,M49_312,GLP,GP,gp,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00426,M49_312,GLP,312,312,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00427,M49_270,GMB,Gambia,gambia,canonical_name,1,True,
+ALIAS_00428,M49_270,GMB,Republic of the Gambia,republic of the gambia,official_name,2,True,
+ALIAS_00429,M49_270,GMB,GMB,gmb,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00430,M49_270,GMB,GM,gm,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00431,M49_270,GMB,270,270,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00432,M49_624,GNB,Guinea-Bissau,guinea bissau,canonical_name,1,True,
+ALIAS_00433,M49_624,GNB,Republic of Guinea-Bissau,republic of guinea bissau,official_name,2,True,
+ALIAS_00434,M49_624,GNB,GNB,gnb,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00435,M49_624,GNB,GW,gw,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00436,M49_624,GNB,624,624,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00437,M49_226,GNQ,Equatorial Guinea,equatorial guinea,canonical_name,1,True,
+ALIAS_00438,M49_226,GNQ,Republic of Equatorial Guinea,republic of equatorial guinea,official_name,2,True,
+ALIAS_00439,M49_226,GNQ,GNQ,gnq,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00440,M49_226,GNQ,GQ,gq,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00441,M49_226,GNQ,226,226,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00442,M49_300,GRC,Greece,greece,canonical_name,1,True,
+ALIAS_00443,M49_300,GRC,Hellenic Republic,hellenic republic,official_name,2,True,
+ALIAS_00444,M49_300,GRC,GRC,grc,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00445,M49_300,GRC,GR,gr,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00446,M49_300,GRC,300,300,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00447,M49_308,GRD,Grenada,grenada,canonical_name,1,True,
+ALIAS_00448,M49_308,GRD,GRD,grd,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00449,M49_308,GRD,GD,gd,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00450,M49_308,GRD,308,308,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00451,M49_304,GRL,Greenland,greenland,canonical_name,1,True,
+ALIAS_00452,M49_304,GRL,GRL,grl,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00453,M49_304,GRL,GL,gl,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00454,M49_304,GRL,304,304,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00455,M49_320,GTM,Guatemala,guatemala,canonical_name,1,True,
+ALIAS_00456,M49_320,GTM,Republic of Guatemala,republic of guatemala,official_name,2,True,
+ALIAS_00457,M49_320,GTM,GTM,gtm,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00458,M49_320,GTM,GT,gt,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00459,M49_320,GTM,320,320,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00460,M49_254,GUF,French Guiana,french guiana,canonical_name,1,True,
+ALIAS_00461,M49_254,GUF,GUF,guf,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00462,M49_254,GUF,GF,gf,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00463,M49_254,GUF,254,254,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00464,M49_316,GUM,Guam,guam,canonical_name,1,True,
+ALIAS_00465,M49_316,GUM,GUM,gum,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00466,M49_316,GUM,GU,gu,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00467,M49_316,GUM,316,316,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00468,M49_328,GUY,Guyana,guyana,canonical_name,1,True,
+ALIAS_00469,M49_328,GUY,Republic of Guyana,republic of guyana,official_name,2,True,
+ALIAS_00470,M49_328,GUY,GUY,guy,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00471,M49_328,GUY,GY,gy,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00472,M49_328,GUY,328,328,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00473,M49_344,HKG,Hong Kong,hong kong,canonical_name,1,True,
+ALIAS_00474,M49_344,HKG,Hong Kong Special Administrative Region of China,hong kong special administrative region of china,official_name,2,True,
+ALIAS_00475,M49_344,HKG,HKG,hkg,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00476,M49_344,HKG,HK,hk,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00477,M49_344,HKG,344,344,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00478,M49_334,HMD,Heard Island and McDonald Islands,heard island and mcdonald islands,canonical_name,1,True,
+ALIAS_00479,M49_334,HMD,HMD,hmd,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00480,M49_334,HMD,HM,hm,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00481,M49_334,HMD,334,334,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00482,M49_340,HND,Honduras,honduras,canonical_name,1,True,
+ALIAS_00483,M49_340,HND,Republic of Honduras,republic of honduras,official_name,2,True,
+ALIAS_00484,M49_340,HND,HND,hnd,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00485,M49_340,HND,HN,hn,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00486,M49_340,HND,340,340,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00487,M49_191,HRV,Croatia,croatia,canonical_name,1,True,
+ALIAS_00488,M49_191,HRV,Republic of Croatia,republic of croatia,official_name,2,True,
+ALIAS_00489,M49_191,HRV,HRV,hrv,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00490,M49_191,HRV,HR,hr,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00491,M49_191,HRV,191,191,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00492,M49_332,HTI,Haiti,haiti,canonical_name,1,True,
+ALIAS_00493,M49_332,HTI,Republic of Haiti,republic of haiti,official_name,2,True,
+ALIAS_00494,M49_332,HTI,HTI,hti,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00495,M49_332,HTI,HT,ht,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00496,M49_332,HTI,332,332,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00497,M49_348,HUN,Hungary,hungary,canonical_name,1,True,
+ALIAS_00498,M49_348,HUN,Hungary,hungary,official_name,2,True,
+ALIAS_00499,M49_348,HUN,HUN,hun,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00500,M49_348,HUN,HU,hu,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00501,M49_348,HUN,348,348,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00502,M49_360,IDN,Indonesia,indonesia,canonical_name,1,True,
+ALIAS_00503,M49_360,IDN,Republic of Indonesia,republic of indonesia,official_name,2,True,
+ALIAS_00504,M49_360,IDN,IDN,idn,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00505,M49_360,IDN,ID,id,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00506,M49_360,IDN,360,360,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00507,M49_833,IMN,Isle of Man,isle of man,canonical_name,1,True,
+ALIAS_00508,M49_833,IMN,IMN,imn,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00509,M49_833,IMN,IM,im,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00510,M49_833,IMN,833,833,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00511,M49_356,IND,India,india,canonical_name,1,True,
+ALIAS_00512,M49_356,IND,Republic of India,republic of india,official_name,2,True,
+ALIAS_00513,M49_356,IND,IND,ind,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00514,M49_356,IND,IN,in,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00515,M49_356,IND,356,356,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00516,M49_086,IOT,British Indian Ocean Territory,british indian ocean territory,canonical_name,1,True,
+ALIAS_00517,M49_086,IOT,IOT,iot,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00518,M49_086,IOT,IO,io,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00519,M49_086,IOT,086,086,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00520,M49_372,IRL,Ireland,ireland,canonical_name,1,True,
+ALIAS_00521,M49_372,IRL,IRL,irl,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00522,M49_372,IRL,IE,ie,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00523,M49_372,IRL,372,372,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00524,M49_364,IRN,Iran (Islamic Republic of),iran islamic republic of,canonical_name,1,True,
+ALIAS_00525,M49_364,IRN,"Iran, Islamic Republic of",iran islamic republic of,iso_name,2,True,
+ALIAS_00526,M49_364,IRN,Islamic Republic of Iran,islamic republic of iran,official_name,2,True,
+ALIAS_00527,M49_364,IRN,Iran,iran,common_name,2,True,
+ALIAS_00528,M49_364,IRN,IRN,irn,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00529,M49_364,IRN,IR,ir,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00530,M49_364,IRN,364,364,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00531,M49_364,IRN,Iran,iran,curated_alias,1,True,
+ALIAS_00532,M49_368,IRQ,Iraq,iraq,canonical_name,1,True,
+ALIAS_00533,M49_368,IRQ,Republic of Iraq,republic of iraq,official_name,2,True,
+ALIAS_00534,M49_368,IRQ,IRQ,irq,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00535,M49_368,IRQ,IQ,iq,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00536,M49_368,IRQ,368,368,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00537,M49_352,ISL,Iceland,iceland,canonical_name,1,True,
+ALIAS_00538,M49_352,ISL,Republic of Iceland,republic of iceland,official_name,2,True,
+ALIAS_00539,M49_352,ISL,ISL,isl,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00540,M49_352,ISL,IS,is,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00541,M49_352,ISL,352,352,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00542,M49_376,ISR,Israel,israel,canonical_name,1,True,
+ALIAS_00543,M49_376,ISR,State of Israel,state of israel,official_name,2,True,
+ALIAS_00544,M49_376,ISR,ISR,isr,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00545,M49_376,ISR,IL,il,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00546,M49_376,ISR,376,376,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00547,M49_380,ITA,Italy,italy,canonical_name,1,True,
+ALIAS_00548,M49_380,ITA,Italian Republic,italian republic,official_name,2,True,
+ALIAS_00549,M49_380,ITA,ITA,ita,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00550,M49_380,ITA,IT,it,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00551,M49_380,ITA,380,380,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00552,M49_388,JAM,Jamaica,jamaica,canonical_name,1,True,
+ALIAS_00553,M49_388,JAM,JAM,jam,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00554,M49_388,JAM,JM,jm,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00555,M49_388,JAM,388,388,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00556,M49_832,JEY,Jersey,jersey,canonical_name,1,True,
+ALIAS_00557,M49_832,JEY,JEY,jey,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00558,M49_832,JEY,JE,je,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00559,M49_832,JEY,832,832,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00560,M49_400,JOR,Jordan,jordan,canonical_name,1,True,
+ALIAS_00561,M49_400,JOR,Hashemite Kingdom of Jordan,hashemite kingdom of jordan,official_name,2,True,
+ALIAS_00562,M49_400,JOR,JOR,jor,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00563,M49_400,JOR,JO,jo,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00564,M49_400,JOR,400,400,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00565,M49_392,JPN,Japan,japan,canonical_name,1,True,
+ALIAS_00566,M49_392,JPN,JPN,jpn,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00567,M49_392,JPN,JP,jp,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00568,M49_392,JPN,392,392,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00569,M49_398,KAZ,Kazakhstan,kazakhstan,canonical_name,1,True,
+ALIAS_00570,M49_398,KAZ,Republic of Kazakhstan,republic of kazakhstan,official_name,2,True,
+ALIAS_00571,M49_398,KAZ,KAZ,kaz,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00572,M49_398,KAZ,KZ,kz,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00573,M49_398,KAZ,398,398,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00574,M49_404,KEN,Kenya,kenya,canonical_name,1,True,
+ALIAS_00575,M49_404,KEN,Republic of Kenya,republic of kenya,official_name,2,True,
+ALIAS_00576,M49_404,KEN,KEN,ken,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00577,M49_404,KEN,KE,ke,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00578,M49_404,KEN,404,404,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00579,M49_417,KGZ,Kyrgyzstan,kyrgyzstan,canonical_name,1,True,
+ALIAS_00580,M49_417,KGZ,Kyrgyz Republic,kyrgyz republic,official_name,2,True,
+ALIAS_00581,M49_417,KGZ,KGZ,kgz,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00582,M49_417,KGZ,KG,kg,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00583,M49_417,KGZ,417,417,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00584,M49_116,KHM,Cambodia,cambodia,canonical_name,1,True,
+ALIAS_00585,M49_116,KHM,Kingdom of Cambodia,kingdom of cambodia,official_name,2,True,
+ALIAS_00586,M49_116,KHM,KHM,khm,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00587,M49_116,KHM,KH,kh,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00588,M49_116,KHM,116,116,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00589,M49_296,KIR,Kiribati,kiribati,canonical_name,1,True,
+ALIAS_00590,M49_296,KIR,Republic of Kiribati,republic of kiribati,official_name,2,True,
+ALIAS_00591,M49_296,KIR,KIR,kir,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00592,M49_296,KIR,KI,ki,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00593,M49_296,KIR,296,296,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00594,M49_659,KNA,Saint Kitts and Nevis,saint kitts and nevis,canonical_name,1,True,
+ALIAS_00595,M49_659,KNA,KNA,kna,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00596,M49_659,KNA,KN,kn,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00597,M49_659,KNA,659,659,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00598,M49_410,KOR,Republic of Korea,republic of korea,canonical_name,1,True,
+ALIAS_00599,M49_410,KOR,"Korea, Republic of",korea republic of,iso_name,2,True,
+ALIAS_00600,M49_410,KOR,South Korea,south korea,common_name,2,True,
+ALIAS_00601,M49_410,KOR,KOR,kor,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00602,M49_410,KOR,KR,kr,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00603,M49_410,KOR,410,410,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00604,M49_410,KOR,South Korea,south korea,curated_alias,1,True,
+ALIAS_00605,M49_410,KOR,ROK,rok,curated_alias,1,False,Potentially ambiguous or overly broad; require context-aware matching.
+ALIAS_00606,M49_414,KWT,Kuwait,kuwait,canonical_name,1,True,
+ALIAS_00607,M49_414,KWT,State of Kuwait,state of kuwait,official_name,2,True,
+ALIAS_00608,M49_414,KWT,KWT,kwt,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00609,M49_414,KWT,KW,kw,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00610,M49_414,KWT,414,414,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00611,M49_418,LAO,Lao People's Democratic Republic,lao people s democratic republic,canonical_name,1,True,
+ALIAS_00612,M49_418,LAO,Laos,laos,common_name,2,True,
+ALIAS_00613,M49_418,LAO,LAO,lao,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00614,M49_418,LAO,LA,la,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00615,M49_418,LAO,418,418,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00616,M49_418,LAO,Laos,laos,curated_alias,1,True,
+ALIAS_00617,M49_422,LBN,Lebanon,lebanon,canonical_name,1,True,
+ALIAS_00618,M49_422,LBN,Lebanese Republic,lebanese republic,official_name,2,True,
+ALIAS_00619,M49_422,LBN,LBN,lbn,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00620,M49_422,LBN,LB,lb,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00621,M49_422,LBN,422,422,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00622,M49_430,LBR,Liberia,liberia,canonical_name,1,True,
+ALIAS_00623,M49_430,LBR,Republic of Liberia,republic of liberia,official_name,2,True,
+ALIAS_00624,M49_430,LBR,LBR,lbr,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00625,M49_430,LBR,LR,lr,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00626,M49_430,LBR,430,430,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00627,M49_434,LBY,Libya,libya,canonical_name,1,True,
+ALIAS_00628,M49_434,LBY,Libya,libya,official_name,2,True,
+ALIAS_00629,M49_434,LBY,LBY,lby,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00630,M49_434,LBY,LY,ly,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00631,M49_434,LBY,434,434,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00632,M49_662,LCA,Saint Lucia,saint lucia,canonical_name,1,True,
+ALIAS_00633,M49_662,LCA,LCA,lca,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00634,M49_662,LCA,LC,lc,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00635,M49_662,LCA,662,662,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00636,M49_438,LIE,Liechtenstein,liechtenstein,canonical_name,1,True,
+ALIAS_00637,M49_438,LIE,Principality of Liechtenstein,principality of liechtenstein,official_name,2,True,
+ALIAS_00638,M49_438,LIE,LIE,lie,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00639,M49_438,LIE,LI,li,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00640,M49_438,LIE,438,438,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00641,M49_144,LKA,Sri Lanka,sri lanka,canonical_name,1,True,
+ALIAS_00642,M49_144,LKA,Democratic Socialist Republic of Sri Lanka,democratic socialist republic of sri lanka,official_name,2,True,
+ALIAS_00643,M49_144,LKA,LKA,lka,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00644,M49_144,LKA,LK,lk,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00645,M49_144,LKA,144,144,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00646,M49_426,LSO,Lesotho,lesotho,canonical_name,1,True,
+ALIAS_00647,M49_426,LSO,Kingdom of Lesotho,kingdom of lesotho,official_name,2,True,
+ALIAS_00648,M49_426,LSO,LSO,lso,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00649,M49_426,LSO,LS,ls,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00650,M49_426,LSO,426,426,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00651,M49_440,LTU,Lithuania,lithuania,canonical_name,1,True,
+ALIAS_00652,M49_440,LTU,Republic of Lithuania,republic of lithuania,official_name,2,True,
+ALIAS_00653,M49_440,LTU,LTU,ltu,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00654,M49_440,LTU,LT,lt,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00655,M49_440,LTU,440,440,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00656,M49_442,LUX,Luxembourg,luxembourg,canonical_name,1,True,
+ALIAS_00657,M49_442,LUX,Grand Duchy of Luxembourg,grand duchy of luxembourg,official_name,2,True,
+ALIAS_00658,M49_442,LUX,LUX,lux,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00659,M49_442,LUX,LU,lu,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00660,M49_442,LUX,442,442,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00661,M49_428,LVA,Latvia,latvia,canonical_name,1,True,
+ALIAS_00662,M49_428,LVA,Republic of Latvia,republic of latvia,official_name,2,True,
+ALIAS_00663,M49_428,LVA,LVA,lva,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00664,M49_428,LVA,LV,lv,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00665,M49_428,LVA,428,428,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00666,M49_446,MAC,Macao,macao,canonical_name,1,True,
+ALIAS_00667,M49_446,MAC,Macao Special Administrative Region of China,macao special administrative region of china,official_name,2,True,
+ALIAS_00668,M49_446,MAC,MAC,mac,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00669,M49_446,MAC,MO,mo,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00670,M49_446,MAC,446,446,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00671,M49_663,MAF,Saint Martin (French part),saint martin french part,canonical_name,1,True,
+ALIAS_00672,M49_663,MAF,MAF,maf,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00673,M49_663,MAF,MF,mf,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00674,M49_663,MAF,663,663,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00675,M49_504,MAR,Morocco,morocco,canonical_name,1,True,
+ALIAS_00676,M49_504,MAR,Kingdom of Morocco,kingdom of morocco,official_name,2,True,
+ALIAS_00677,M49_504,MAR,MAR,mar,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00678,M49_504,MAR,MA,ma,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00679,M49_504,MAR,504,504,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00680,M49_492,MCO,Monaco,monaco,canonical_name,1,True,
+ALIAS_00681,M49_492,MCO,Principality of Monaco,principality of monaco,official_name,2,True,
+ALIAS_00682,M49_492,MCO,MCO,mco,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00683,M49_492,MCO,MC,mc,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00684,M49_492,MCO,492,492,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00685,M49_498,MDA,Republic of Moldova,republic of moldova,canonical_name,1,True,
+ALIAS_00686,M49_498,MDA,"Moldova, Republic of",moldova republic of,iso_name,2,True,
+ALIAS_00687,M49_498,MDA,Republic of Moldova,republic of moldova,official_name,2,True,
+ALIAS_00688,M49_498,MDA,Moldova,moldova,common_name,2,True,
+ALIAS_00689,M49_498,MDA,MDA,mda,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00690,M49_498,MDA,MD,md,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00691,M49_498,MDA,498,498,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00692,M49_498,MDA,Moldova,moldova,curated_alias,1,True,
+ALIAS_00693,M49_450,MDG,Madagascar,madagascar,canonical_name,1,True,
+ALIAS_00694,M49_450,MDG,Republic of Madagascar,republic of madagascar,official_name,2,True,
+ALIAS_00695,M49_450,MDG,MDG,mdg,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00696,M49_450,MDG,MG,mg,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00697,M49_450,MDG,450,450,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00698,M49_462,MDV,Maldives,maldives,canonical_name,1,True,
+ALIAS_00699,M49_462,MDV,Republic of Maldives,republic of maldives,official_name,2,True,
+ALIAS_00700,M49_462,MDV,MDV,mdv,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00701,M49_462,MDV,MV,mv,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00702,M49_462,MDV,462,462,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00703,M49_484,MEX,Mexico,mexico,canonical_name,1,True,
+ALIAS_00704,M49_484,MEX,United Mexican States,united mexican states,official_name,2,True,
+ALIAS_00705,M49_484,MEX,MEX,mex,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00706,M49_484,MEX,MX,mx,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00707,M49_484,MEX,484,484,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00708,M49_584,MHL,Marshall Islands,marshall islands,canonical_name,1,True,
+ALIAS_00709,M49_584,MHL,Republic of the Marshall Islands,republic of the marshall islands,official_name,2,True,
+ALIAS_00710,M49_584,MHL,MHL,mhl,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00711,M49_584,MHL,MH,mh,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00712,M49_584,MHL,584,584,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00713,M49_807,MKD,North Macedonia,north macedonia,canonical_name,1,True,
+ALIAS_00714,M49_807,MKD,Republic of North Macedonia,republic of north macedonia,official_name,2,True,
+ALIAS_00715,M49_807,MKD,MKD,mkd,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00716,M49_807,MKD,MK,mk,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00717,M49_807,MKD,807,807,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00718,M49_807,MKD,Macedonia,macedonia,curated_alias,1,False,Potentially ambiguous or overly broad; require context-aware matching.
+ALIAS_00719,M49_807,MKD,FYROM,fyrom,curated_alias,1,True,
+ALIAS_00720,M49_807,MKD,former Yugoslav Republic of Macedonia,former yugoslav republic of macedonia,curated_alias,1,True,
+ALIAS_00721,M49_466,MLI,Mali,mali,canonical_name,1,True,
+ALIAS_00722,M49_466,MLI,Republic of Mali,republic of mali,official_name,2,True,
+ALIAS_00723,M49_466,MLI,MLI,mli,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00724,M49_466,MLI,ML,ml,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00725,M49_466,MLI,466,466,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00726,M49_470,MLT,Malta,malta,canonical_name,1,True,
+ALIAS_00727,M49_470,MLT,Republic of Malta,republic of malta,official_name,2,True,
+ALIAS_00728,M49_470,MLT,MLT,mlt,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00729,M49_470,MLT,MT,mt,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00730,M49_470,MLT,470,470,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00731,M49_104,MMR,Myanmar,myanmar,canonical_name,1,True,
+ALIAS_00732,M49_104,MMR,Republic of Myanmar,republic of myanmar,official_name,2,True,
+ALIAS_00733,M49_104,MMR,MMR,mmr,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00734,M49_104,MMR,MM,mm,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00735,M49_104,MMR,104,104,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00736,M49_104,MMR,Burma,burma,curated_alias,1,True,
+ALIAS_00737,M49_499,MNE,Montenegro,montenegro,canonical_name,1,True,
+ALIAS_00738,M49_499,MNE,Montenegro,montenegro,official_name,2,True,
+ALIAS_00739,M49_499,MNE,MNE,mne,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00740,M49_499,MNE,ME,me,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00741,M49_499,MNE,499,499,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00742,M49_496,MNG,Mongolia,mongolia,canonical_name,1,True,
+ALIAS_00743,M49_496,MNG,MNG,mng,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00744,M49_496,MNG,MN,mn,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00745,M49_496,MNG,496,496,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00746,M49_580,MNP,Northern Mariana Islands,northern mariana islands,canonical_name,1,True,
+ALIAS_00747,M49_580,MNP,Commonwealth of the Northern Mariana Islands,commonwealth of the northern mariana islands,official_name,2,True,
+ALIAS_00748,M49_580,MNP,MNP,mnp,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00749,M49_580,MNP,MP,mp,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00750,M49_580,MNP,580,580,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00751,M49_508,MOZ,Mozambique,mozambique,canonical_name,1,True,
+ALIAS_00752,M49_508,MOZ,Republic of Mozambique,republic of mozambique,official_name,2,True,
+ALIAS_00753,M49_508,MOZ,MOZ,moz,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00754,M49_508,MOZ,MZ,mz,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00755,M49_508,MOZ,508,508,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00756,M49_478,MRT,Mauritania,mauritania,canonical_name,1,True,
+ALIAS_00757,M49_478,MRT,Islamic Republic of Mauritania,islamic republic of mauritania,official_name,2,True,
+ALIAS_00758,M49_478,MRT,MRT,mrt,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00759,M49_478,MRT,MR,mr,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00760,M49_478,MRT,478,478,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00761,M49_500,MSR,Montserrat,montserrat,canonical_name,1,True,
+ALIAS_00762,M49_500,MSR,MSR,msr,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00763,M49_500,MSR,MS,ms,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00764,M49_500,MSR,500,500,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00765,M49_474,MTQ,Martinique,martinique,canonical_name,1,True,
+ALIAS_00766,M49_474,MTQ,MTQ,mtq,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00767,M49_474,MTQ,MQ,mq,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00768,M49_474,MTQ,474,474,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00769,M49_480,MUS,Mauritius,mauritius,canonical_name,1,True,
+ALIAS_00770,M49_480,MUS,Republic of Mauritius,republic of mauritius,official_name,2,True,
+ALIAS_00771,M49_480,MUS,MUS,mus,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00772,M49_480,MUS,MU,mu,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00773,M49_480,MUS,480,480,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00774,M49_454,MWI,Malawi,malawi,canonical_name,1,True,
+ALIAS_00775,M49_454,MWI,Republic of Malawi,republic of malawi,official_name,2,True,
+ALIAS_00776,M49_454,MWI,MWI,mwi,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00777,M49_454,MWI,MW,mw,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00778,M49_454,MWI,454,454,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00779,M49_458,MYS,Malaysia,malaysia,canonical_name,1,True,
+ALIAS_00780,M49_458,MYS,MYS,mys,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00781,M49_458,MYS,MY,my,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00782,M49_458,MYS,458,458,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00783,M49_175,MYT,Mayotte,mayotte,canonical_name,1,True,
+ALIAS_00784,M49_175,MYT,MYT,myt,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00785,M49_175,MYT,YT,yt,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00786,M49_175,MYT,175,175,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00787,M49_516,NAM,Namibia,namibia,canonical_name,1,True,
+ALIAS_00788,M49_516,NAM,Republic of Namibia,republic of namibia,official_name,2,True,
+ALIAS_00789,M49_516,NAM,NAM,nam,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00790,M49_516,NAM,NA,na,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00791,M49_516,NAM,516,516,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00792,M49_540,NCL,New Caledonia,new caledonia,canonical_name,1,True,
+ALIAS_00793,M49_540,NCL,NCL,ncl,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00794,M49_540,NCL,NC,nc,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00795,M49_540,NCL,540,540,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00796,M49_562,NER,Niger,niger,canonical_name,1,True,
+ALIAS_00797,M49_562,NER,Republic of the Niger,republic of the niger,official_name,2,True,
+ALIAS_00798,M49_562,NER,NER,ner,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00799,M49_562,NER,NE,ne,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00800,M49_562,NER,562,562,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00801,M49_574,NFK,Norfolk Island,norfolk island,canonical_name,1,True,
+ALIAS_00802,M49_574,NFK,NFK,nfk,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00803,M49_574,NFK,NF,nf,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00804,M49_574,NFK,574,574,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00805,M49_566,NGA,Nigeria,nigeria,canonical_name,1,True,
+ALIAS_00806,M49_566,NGA,Federal Republic of Nigeria,federal republic of nigeria,official_name,2,True,
+ALIAS_00807,M49_566,NGA,NGA,nga,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00808,M49_566,NGA,NG,ng,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00809,M49_566,NGA,566,566,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00810,M49_558,NIC,Nicaragua,nicaragua,canonical_name,1,True,
+ALIAS_00811,M49_558,NIC,Republic of Nicaragua,republic of nicaragua,official_name,2,True,
+ALIAS_00812,M49_558,NIC,NIC,nic,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00813,M49_558,NIC,NI,ni,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00814,M49_558,NIC,558,558,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00815,M49_570,NIU,Niue,niue,canonical_name,1,True,
+ALIAS_00816,M49_570,NIU,Niue,niue,official_name,2,True,
+ALIAS_00817,M49_570,NIU,NIU,niu,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00818,M49_570,NIU,NU,nu,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00819,M49_570,NIU,570,570,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00820,M49_528,NLD,Netherlands,netherlands,canonical_name,1,True,
+ALIAS_00821,M49_528,NLD,Kingdom of the Netherlands,kingdom of the netherlands,official_name,2,True,
+ALIAS_00822,M49_528,NLD,NLD,nld,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00823,M49_528,NLD,NL,nl,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00824,M49_528,NLD,528,528,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00825,M49_578,NOR,Norway,norway,canonical_name,1,True,
+ALIAS_00826,M49_578,NOR,Kingdom of Norway,kingdom of norway,official_name,2,True,
+ALIAS_00827,M49_578,NOR,NOR,nor,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00828,M49_578,NOR,NO,no,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00829,M49_578,NOR,578,578,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00830,M49_524,NPL,Nepal,nepal,canonical_name,1,True,
+ALIAS_00831,M49_524,NPL,Federal Democratic Republic of Nepal,federal democratic republic of nepal,official_name,2,True,
+ALIAS_00832,M49_524,NPL,NPL,npl,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00833,M49_524,NPL,NP,np,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00834,M49_524,NPL,524,524,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00835,M49_520,NRU,Nauru,nauru,canonical_name,1,True,
+ALIAS_00836,M49_520,NRU,Republic of Nauru,republic of nauru,official_name,2,True,
+ALIAS_00837,M49_520,NRU,NRU,nru,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00838,M49_520,NRU,NR,nr,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00839,M49_520,NRU,520,520,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00840,M49_554,NZL,New Zealand,new zealand,canonical_name,1,True,
+ALIAS_00841,M49_554,NZL,NZL,nzl,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00842,M49_554,NZL,NZ,nz,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00843,M49_554,NZL,554,554,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00844,M49_512,OMN,Oman,oman,canonical_name,1,True,
+ALIAS_00845,M49_512,OMN,Sultanate of Oman,sultanate of oman,official_name,2,True,
+ALIAS_00846,M49_512,OMN,OMN,omn,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00847,M49_512,OMN,OM,om,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00848,M49_512,OMN,512,512,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00849,M49_586,PAK,Pakistan,pakistan,canonical_name,1,True,
+ALIAS_00850,M49_586,PAK,Islamic Republic of Pakistan,islamic republic of pakistan,official_name,2,True,
+ALIAS_00851,M49_586,PAK,PAK,pak,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00852,M49_586,PAK,PK,pk,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00853,M49_586,PAK,586,586,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00854,M49_591,PAN,Panama,panama,canonical_name,1,True,
+ALIAS_00855,M49_591,PAN,Republic of Panama,republic of panama,official_name,2,True,
+ALIAS_00856,M49_591,PAN,PAN,pan,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00857,M49_591,PAN,PA,pa,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00858,M49_591,PAN,591,591,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00859,M49_612,PCN,Pitcairn,pitcairn,canonical_name,1,True,
+ALIAS_00860,M49_612,PCN,PCN,pcn,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00861,M49_612,PCN,PN,pn,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00862,M49_612,PCN,612,612,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00863,M49_604,PER,Peru,peru,canonical_name,1,True,
+ALIAS_00864,M49_604,PER,Republic of Peru,republic of peru,official_name,2,True,
+ALIAS_00865,M49_604,PER,PER,per,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00866,M49_604,PER,PE,pe,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00867,M49_604,PER,604,604,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00868,M49_608,PHL,Philippines,philippines,canonical_name,1,True,
+ALIAS_00869,M49_608,PHL,Republic of the Philippines,republic of the philippines,official_name,2,True,
+ALIAS_00870,M49_608,PHL,PHL,phl,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00871,M49_608,PHL,PH,ph,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00872,M49_608,PHL,608,608,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00873,M49_585,PLW,Palau,palau,canonical_name,1,True,
+ALIAS_00874,M49_585,PLW,Republic of Palau,republic of palau,official_name,2,True,
+ALIAS_00875,M49_585,PLW,PLW,plw,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00876,M49_585,PLW,PW,pw,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00877,M49_585,PLW,585,585,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00878,M49_598,PNG,Papua New Guinea,papua new guinea,canonical_name,1,True,
+ALIAS_00879,M49_598,PNG,Independent State of Papua New Guinea,independent state of papua new guinea,official_name,2,True,
+ALIAS_00880,M49_598,PNG,PNG,png,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00881,M49_598,PNG,PG,pg,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00882,M49_598,PNG,598,598,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00883,M49_616,POL,Poland,poland,canonical_name,1,True,
+ALIAS_00884,M49_616,POL,Republic of Poland,republic of poland,official_name,2,True,
+ALIAS_00885,M49_616,POL,POL,pol,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00886,M49_616,POL,PL,pl,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00887,M49_616,POL,616,616,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00888,M49_630,PRI,Puerto Rico,puerto rico,canonical_name,1,True,
+ALIAS_00889,M49_630,PRI,PRI,pri,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00890,M49_630,PRI,PR,pr,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00891,M49_630,PRI,630,630,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00892,M49_408,PRK,Democratic People's Republic of Korea,democratic people s republic of korea,canonical_name,1,True,
+ALIAS_00893,M49_408,PRK,"Korea, Democratic People's Republic of",korea democratic people s republic of,iso_name,2,True,
+ALIAS_00894,M49_408,PRK,Democratic People's Republic of Korea,democratic people s republic of korea,official_name,2,True,
+ALIAS_00895,M49_408,PRK,North Korea,north korea,common_name,2,True,
+ALIAS_00896,M49_408,PRK,PRK,prk,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00897,M49_408,PRK,KP,kp,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00898,M49_408,PRK,408,408,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00899,M49_408,PRK,North Korea,north korea,curated_alias,1,True,
+ALIAS_00900,M49_408,PRK,DPRK,dprk,curated_alias,1,True,
+ALIAS_00901,M49_620,PRT,Portugal,portugal,canonical_name,1,True,
+ALIAS_00902,M49_620,PRT,Portuguese Republic,portuguese republic,official_name,2,True,
+ALIAS_00903,M49_620,PRT,PRT,prt,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00904,M49_620,PRT,PT,pt,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00905,M49_620,PRT,620,620,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00906,M49_600,PRY,Paraguay,paraguay,canonical_name,1,True,
+ALIAS_00907,M49_600,PRY,Republic of Paraguay,republic of paraguay,official_name,2,True,
+ALIAS_00908,M49_600,PRY,PRY,pry,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00909,M49_600,PRY,PY,py,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00910,M49_600,PRY,600,600,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00911,M49_275,PSE,State of Palestine,state of palestine,canonical_name,1,True,
+ALIAS_00912,M49_275,PSE,"Palestine, State of",palestine state of,iso_name,2,True,
+ALIAS_00913,M49_275,PSE,the State of Palestine,the state of palestine,official_name,2,True,
+ALIAS_00914,M49_275,PSE,PSE,pse,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00915,M49_275,PSE,PS,ps,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00916,M49_275,PSE,275,275,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00917,M49_275,PSE,Palestine,palestine,curated_alias,1,True,
+ALIAS_00918,M49_258,PYF,French Polynesia,french polynesia,canonical_name,1,True,
+ALIAS_00919,M49_258,PYF,PYF,pyf,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00920,M49_258,PYF,PF,pf,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00921,M49_258,PYF,258,258,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00922,M49_634,QAT,Qatar,qatar,canonical_name,1,True,
+ALIAS_00923,M49_634,QAT,State of Qatar,state of qatar,official_name,2,True,
+ALIAS_00924,M49_634,QAT,QAT,qat,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00925,M49_634,QAT,QA,qa,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00926,M49_634,QAT,634,634,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00927,M49_638,REU,Réunion,reunion,canonical_name,1,True,
+ALIAS_00928,M49_638,REU,REU,reu,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00929,M49_638,REU,RE,re,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00930,M49_638,REU,638,638,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00931,M49_642,ROU,Romania,romania,canonical_name,1,True,
+ALIAS_00932,M49_642,ROU,ROU,rou,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00933,M49_642,ROU,RO,ro,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00934,M49_642,ROU,642,642,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00935,M49_643,RUS,Russian Federation,russian federation,canonical_name,1,True,
+ALIAS_00936,M49_643,RUS,RUS,rus,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00937,M49_643,RUS,RU,ru,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00938,M49_643,RUS,643,643,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00939,M49_643,RUS,Russia,russia,curated_alias,1,True,
+ALIAS_00940,M49_646,RWA,Rwanda,rwanda,canonical_name,1,True,
+ALIAS_00941,M49_646,RWA,Rwandese Republic,rwandese republic,official_name,2,True,
+ALIAS_00942,M49_646,RWA,RWA,rwa,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00943,M49_646,RWA,RW,rw,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00944,M49_646,RWA,646,646,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00945,M49_682,SAU,Saudi Arabia,saudi arabia,canonical_name,1,True,
+ALIAS_00946,M49_682,SAU,Kingdom of Saudi Arabia,kingdom of saudi arabia,official_name,2,True,
+ALIAS_00947,M49_682,SAU,SAU,sau,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00948,M49_682,SAU,SA,sa,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00949,M49_682,SAU,682,682,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00950,M49_682,SAU,KSA,ksa,curated_alias,1,False,Potentially ambiguous or overly broad; require context-aware matching.
+ALIAS_00951,M49_682,SAU,Kingdom of Saudi Arabia,kingdom of saudi arabia,curated_alias,1,True,
+ALIAS_00952,M49_729,SDN,Sudan,sudan,canonical_name,1,True,
+ALIAS_00953,M49_729,SDN,Republic of the Sudan,republic of the sudan,official_name,2,True,
+ALIAS_00954,M49_729,SDN,SDN,sdn,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00955,M49_729,SDN,SD,sd,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00956,M49_729,SDN,729,729,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00957,M49_686,SEN,Senegal,senegal,canonical_name,1,True,
+ALIAS_00958,M49_686,SEN,Republic of Senegal,republic of senegal,official_name,2,True,
+ALIAS_00959,M49_686,SEN,SEN,sen,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00960,M49_686,SEN,SN,sn,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00961,M49_686,SEN,686,686,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00962,M49_702,SGP,Singapore,singapore,canonical_name,1,True,
+ALIAS_00963,M49_702,SGP,Republic of Singapore,republic of singapore,official_name,2,True,
+ALIAS_00964,M49_702,SGP,SGP,sgp,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00965,M49_702,SGP,SG,sg,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00966,M49_702,SGP,702,702,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00967,M49_239,SGS,South Georgia and the South Sandwich Islands,south georgia and the south sandwich islands,canonical_name,1,True,
+ALIAS_00968,M49_239,SGS,SGS,sgs,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00969,M49_239,SGS,GS,gs,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00970,M49_239,SGS,239,239,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00971,M49_654,SHN,"Saint Helena, Ascension and Tristan da Cunha",saint helena ascension and tristan da cunha,canonical_name,1,True,
+ALIAS_00972,M49_654,SHN,SHN,shn,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00973,M49_654,SHN,SH,sh,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00974,M49_654,SHN,654,654,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00975,M49_744,SJM,Svalbard and Jan Mayen,svalbard and jan mayen,canonical_name,1,True,
+ALIAS_00976,M49_744,SJM,SJM,sjm,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00977,M49_744,SJM,SJ,sj,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00978,M49_744,SJM,744,744,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00979,M49_090,SLB,Solomon Islands,solomon islands,canonical_name,1,True,
+ALIAS_00980,M49_090,SLB,SLB,slb,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00981,M49_090,SLB,SB,sb,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00982,M49_090,SLB,090,090,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00983,M49_694,SLE,Sierra Leone,sierra leone,canonical_name,1,True,
+ALIAS_00984,M49_694,SLE,Republic of Sierra Leone,republic of sierra leone,official_name,2,True,
+ALIAS_00985,M49_694,SLE,SLE,sle,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00986,M49_694,SLE,SL,sl,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00987,M49_694,SLE,694,694,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00988,M49_222,SLV,El Salvador,el salvador,canonical_name,1,True,
+ALIAS_00989,M49_222,SLV,Republic of El Salvador,republic of el salvador,official_name,2,True,
+ALIAS_00990,M49_222,SLV,SLV,slv,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00991,M49_222,SLV,SV,sv,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00992,M49_222,SLV,222,222,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00993,M49_674,SMR,San Marino,san marino,canonical_name,1,True,
+ALIAS_00994,M49_674,SMR,Republic of San Marino,republic of san marino,official_name,2,True,
+ALIAS_00995,M49_674,SMR,SMR,smr,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00996,M49_674,SMR,SM,sm,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_00997,M49_674,SMR,674,674,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_00998,M49_706,SOM,Somalia,somalia,canonical_name,1,True,
+ALIAS_00999,M49_706,SOM,Federal Republic of Somalia,federal republic of somalia,official_name,2,True,
+ALIAS_01000,M49_706,SOM,SOM,som,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01001,M49_706,SOM,SO,so,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01002,M49_706,SOM,706,706,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01003,M49_666,SPM,Saint Pierre and Miquelon,saint pierre and miquelon,canonical_name,1,True,
+ALIAS_01004,M49_666,SPM,SPM,spm,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01005,M49_666,SPM,PM,pm,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01006,M49_666,SPM,666,666,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01007,M49_688,SRB,Serbia,serbia,canonical_name,1,True,
+ALIAS_01008,M49_688,SRB,Republic of Serbia,republic of serbia,official_name,2,True,
+ALIAS_01009,M49_688,SRB,SRB,srb,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01010,M49_688,SRB,RS,rs,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01011,M49_688,SRB,688,688,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01012,M49_728,SSD,South Sudan,south sudan,canonical_name,1,True,
+ALIAS_01013,M49_728,SSD,Republic of South Sudan,republic of south sudan,official_name,2,True,
+ALIAS_01014,M49_728,SSD,SSD,ssd,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01015,M49_728,SSD,SS,ss,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01016,M49_728,SSD,728,728,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01017,M49_678,STP,Sao Tome and Principe,sao tome and principe,canonical_name,1,True,
+ALIAS_01018,M49_678,STP,Democratic Republic of Sao Tome and Principe,democratic republic of sao tome and principe,official_name,2,True,
+ALIAS_01019,M49_678,STP,STP,stp,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01020,M49_678,STP,ST,st,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01021,M49_678,STP,678,678,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01022,M49_740,SUR,Suriname,suriname,canonical_name,1,True,
+ALIAS_01023,M49_740,SUR,Republic of Suriname,republic of suriname,official_name,2,True,
+ALIAS_01024,M49_740,SUR,SUR,sur,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01025,M49_740,SUR,SR,sr,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01026,M49_740,SUR,740,740,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01027,M49_703,SVK,Slovakia,slovakia,canonical_name,1,True,
+ALIAS_01028,M49_703,SVK,Slovak Republic,slovak republic,official_name,2,True,
+ALIAS_01029,M49_703,SVK,SVK,svk,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01030,M49_703,SVK,SK,sk,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01031,M49_703,SVK,703,703,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01032,M49_705,SVN,Slovenia,slovenia,canonical_name,1,True,
+ALIAS_01033,M49_705,SVN,Republic of Slovenia,republic of slovenia,official_name,2,True,
+ALIAS_01034,M49_705,SVN,SVN,svn,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01035,M49_705,SVN,SI,si,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01036,M49_705,SVN,705,705,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01037,M49_752,SWE,Sweden,sweden,canonical_name,1,True,
+ALIAS_01038,M49_752,SWE,Kingdom of Sweden,kingdom of sweden,official_name,2,True,
+ALIAS_01039,M49_752,SWE,SWE,swe,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01040,M49_752,SWE,SE,se,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01041,M49_752,SWE,752,752,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01042,M49_748,SWZ,Eswatini,eswatini,canonical_name,1,True,
+ALIAS_01043,M49_748,SWZ,Kingdom of Eswatini,kingdom of eswatini,official_name,2,True,
+ALIAS_01044,M49_748,SWZ,SWZ,swz,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01045,M49_748,SWZ,SZ,sz,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01046,M49_748,SWZ,748,748,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01047,M49_748,SWZ,Swaziland,swaziland,curated_alias,1,True,
+ALIAS_01048,M49_534,SXM,Sint Maarten (Dutch part),sint maarten dutch part,canonical_name,1,True,
+ALIAS_01049,M49_534,SXM,Sint Maarten (Dutch part),sint maarten dutch part,official_name,2,True,
+ALIAS_01050,M49_534,SXM,SXM,sxm,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01051,M49_534,SXM,SX,sx,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01052,M49_534,SXM,534,534,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01053,M49_690,SYC,Seychelles,seychelles,canonical_name,1,True,
+ALIAS_01054,M49_690,SYC,Republic of Seychelles,republic of seychelles,official_name,2,True,
+ALIAS_01055,M49_690,SYC,SYC,syc,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01056,M49_690,SYC,SC,sc,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01057,M49_690,SYC,690,690,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01058,M49_760,SYR,Syrian Arab Republic,syrian arab republic,canonical_name,1,True,
+ALIAS_01059,M49_760,SYR,Syria,syria,common_name,2,True,
+ALIAS_01060,M49_760,SYR,SYR,syr,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01061,M49_760,SYR,SY,sy,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01062,M49_760,SYR,760,760,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01063,M49_760,SYR,Syria,syria,curated_alias,1,True,
+ALIAS_01064,M49_796,TCA,Turks and Caicos Islands,turks and caicos islands,canonical_name,1,True,
+ALIAS_01065,M49_796,TCA,TCA,tca,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01066,M49_796,TCA,TC,tc,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01067,M49_796,TCA,796,796,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01068,M49_148,TCD,Chad,chad,canonical_name,1,True,
+ALIAS_01069,M49_148,TCD,Republic of Chad,republic of chad,official_name,2,True,
+ALIAS_01070,M49_148,TCD,TCD,tcd,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01071,M49_148,TCD,TD,td,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01072,M49_148,TCD,148,148,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01073,M49_768,TGO,Togo,togo,canonical_name,1,True,
+ALIAS_01074,M49_768,TGO,Togolese Republic,togolese republic,official_name,2,True,
+ALIAS_01075,M49_768,TGO,TGO,tgo,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01076,M49_768,TGO,TG,tg,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01077,M49_768,TGO,768,768,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01078,M49_764,THA,Thailand,thailand,canonical_name,1,True,
+ALIAS_01079,M49_764,THA,Kingdom of Thailand,kingdom of thailand,official_name,2,True,
+ALIAS_01080,M49_764,THA,THA,tha,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01081,M49_764,THA,TH,th,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01082,M49_764,THA,764,764,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01083,M49_762,TJK,Tajikistan,tajikistan,canonical_name,1,True,
+ALIAS_01084,M49_762,TJK,Republic of Tajikistan,republic of tajikistan,official_name,2,True,
+ALIAS_01085,M49_762,TJK,TJK,tjk,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01086,M49_762,TJK,TJ,tj,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01087,M49_762,TJK,762,762,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01088,M49_772,TKL,Tokelau,tokelau,canonical_name,1,True,
+ALIAS_01089,M49_772,TKL,TKL,tkl,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01090,M49_772,TKL,TK,tk,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01091,M49_772,TKL,772,772,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01092,M49_795,TKM,Turkmenistan,turkmenistan,canonical_name,1,True,
+ALIAS_01093,M49_795,TKM,TKM,tkm,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01094,M49_795,TKM,TM,tm,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01095,M49_795,TKM,795,795,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01096,M49_626,TLS,Timor-Leste,timor leste,canonical_name,1,True,
+ALIAS_01097,M49_626,TLS,Democratic Republic of Timor-Leste,democratic republic of timor leste,official_name,2,True,
+ALIAS_01098,M49_626,TLS,TLS,tls,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01099,M49_626,TLS,TL,tl,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01100,M49_626,TLS,626,626,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01101,M49_626,TLS,East Timor,east timor,curated_alias,1,True,
+ALIAS_01102,M49_776,TON,Tonga,tonga,canonical_name,1,True,
+ALIAS_01103,M49_776,TON,Kingdom of Tonga,kingdom of tonga,official_name,2,True,
+ALIAS_01104,M49_776,TON,TON,ton,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01105,M49_776,TON,TO,to,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01106,M49_776,TON,776,776,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01107,M49_780,TTO,Trinidad and Tobago,trinidad and tobago,canonical_name,1,True,
+ALIAS_01108,M49_780,TTO,Republic of Trinidad and Tobago,republic of trinidad and tobago,official_name,2,True,
+ALIAS_01109,M49_780,TTO,TTO,tto,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01110,M49_780,TTO,TT,tt,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01111,M49_780,TTO,780,780,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01112,M49_788,TUN,Tunisia,tunisia,canonical_name,1,True,
+ALIAS_01113,M49_788,TUN,Republic of Tunisia,republic of tunisia,official_name,2,True,
+ALIAS_01114,M49_788,TUN,TUN,tun,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01115,M49_788,TUN,TN,tn,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01116,M49_788,TUN,788,788,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01117,M49_792,TUR,Türkiye,turkiye,canonical_name,1,True,
+ALIAS_01118,M49_792,TUR,Republic of Türkiye,republic of turkiye,official_name,2,True,
+ALIAS_01119,M49_792,TUR,TUR,tur,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01120,M49_792,TUR,TR,tr,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01121,M49_792,TUR,792,792,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01122,M49_792,TUR,Turkey,turkey,curated_alias,1,True,
+ALIAS_01123,M49_798,TUV,Tuvalu,tuvalu,canonical_name,1,True,
+ALIAS_01124,M49_798,TUV,TUV,tuv,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01125,M49_798,TUV,TV,tv,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01126,M49_798,TUV,798,798,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01127,M49_158,TWN,"Taiwan, Province of China",taiwan province of china,canonical_name,1,True,
+ALIAS_01128,M49_158,TWN,"Taiwan, Province of China",taiwan province of china,official_name,2,True,
+ALIAS_01129,M49_158,TWN,Taiwan,taiwan,common_name,2,True,
+ALIAS_01130,M49_158,TWN,TWN,twn,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01131,M49_158,TWN,TW,tw,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01132,M49_158,TWN,158,158,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01133,M49_834,TZA,United Republic of Tanzania,united republic of tanzania,canonical_name,1,True,
+ALIAS_01134,M49_834,TZA,"Tanzania, United Republic of",tanzania united republic of,iso_name,2,True,
+ALIAS_01135,M49_834,TZA,United Republic of Tanzania,united republic of tanzania,official_name,2,True,
+ALIAS_01136,M49_834,TZA,Tanzania,tanzania,common_name,2,True,
+ALIAS_01137,M49_834,TZA,TZA,tza,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01138,M49_834,TZA,TZ,tz,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01139,M49_834,TZA,834,834,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01140,M49_834,TZA,Tanzania,tanzania,curated_alias,1,True,
+ALIAS_01141,M49_800,UGA,Uganda,uganda,canonical_name,1,True,
+ALIAS_01142,M49_800,UGA,Republic of Uganda,republic of uganda,official_name,2,True,
+ALIAS_01143,M49_800,UGA,UGA,uga,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01144,M49_800,UGA,UG,ug,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01145,M49_800,UGA,800,800,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01146,M49_804,UKR,Ukraine,ukraine,canonical_name,1,True,
+ALIAS_01147,M49_804,UKR,UKR,ukr,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01148,M49_804,UKR,UA,ua,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01149,M49_804,UKR,804,804,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01150,M49_581,UMI,United States Minor Outlying Islands,united states minor outlying islands,canonical_name,1,True,
+ALIAS_01151,M49_581,UMI,UMI,umi,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01152,M49_581,UMI,UM,um,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01153,M49_581,UMI,581,581,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01154,M49_858,URY,Uruguay,uruguay,canonical_name,1,True,
+ALIAS_01155,M49_858,URY,Eastern Republic of Uruguay,eastern republic of uruguay,official_name,2,True,
+ALIAS_01156,M49_858,URY,URY,ury,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01157,M49_858,URY,UY,uy,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01158,M49_858,URY,858,858,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01159,M49_840,USA,United States of America,united states of america,canonical_name,1,True,
+ALIAS_01160,M49_840,USA,United States,united states,iso_name,2,True,
+ALIAS_01161,M49_840,USA,United States of America,united states of america,official_name,2,True,
+ALIAS_01162,M49_840,USA,USA,usa,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01163,M49_840,USA,US,us,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01164,M49_840,USA,840,840,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01165,M49_840,USA,United States,united states,curated_alias,1,True,
+ALIAS_01166,M49_840,USA,U.S.,u s,curated_alias,1,False,Potentially ambiguous or overly broad; require context-aware matching.
+ALIAS_01167,M49_840,USA,US,us,curated_alias,1,False,Potentially ambiguous or overly broad; require context-aware matching.
+ALIAS_01168,M49_840,USA,USA,usa,curated_alias,1,False,Potentially ambiguous or overly broad; require context-aware matching.
+ALIAS_01169,M49_840,USA,America,america,curated_alias,1,False,Potentially ambiguous or overly broad; require context-aware matching.
+ALIAS_01170,M49_860,UZB,Uzbekistan,uzbekistan,canonical_name,1,True,
+ALIAS_01171,M49_860,UZB,Republic of Uzbekistan,republic of uzbekistan,official_name,2,True,
+ALIAS_01172,M49_860,UZB,UZB,uzb,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01173,M49_860,UZB,UZ,uz,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01174,M49_860,UZB,860,860,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01175,M49_336,VAT,Holy See,holy see,canonical_name,1,True,
+ALIAS_01176,M49_336,VAT,Holy See (Vatican City State),holy see vatican city state,iso_name,2,True,
+ALIAS_01177,M49_336,VAT,VAT,vat,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01178,M49_336,VAT,VA,va,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01179,M49_336,VAT,336,336,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01180,M49_336,VAT,Vatican City,vatican city,curated_alias,1,True,
+ALIAS_01181,M49_336,VAT,Vatican,vatican,curated_alias,1,True,
+ALIAS_01182,M49_670,VCT,Saint Vincent and the Grenadines,saint vincent and the grenadines,canonical_name,1,True,
+ALIAS_01183,M49_670,VCT,VCT,vct,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01184,M49_670,VCT,VC,vc,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01185,M49_670,VCT,670,670,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01186,M49_862,VEN,Venezuela (Bolivarian Republic of),venezuela bolivarian republic of,canonical_name,1,True,
+ALIAS_01187,M49_862,VEN,"Venezuela, Bolivarian Republic of",venezuela bolivarian republic of,iso_name,2,True,
+ALIAS_01188,M49_862,VEN,Bolivarian Republic of Venezuela,bolivarian republic of venezuela,official_name,2,True,
+ALIAS_01189,M49_862,VEN,Venezuela,venezuela,common_name,2,True,
+ALIAS_01190,M49_862,VEN,VEN,ven,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01191,M49_862,VEN,VE,ve,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01192,M49_862,VEN,862,862,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01193,M49_862,VEN,Venezuela,venezuela,curated_alias,1,True,
+ALIAS_01194,M49_092,VGB,"Virgin Islands, British",virgin islands british,canonical_name,1,True,
+ALIAS_01195,M49_092,VGB,British Virgin Islands,british virgin islands,official_name,2,True,
+ALIAS_01196,M49_092,VGB,VGB,vgb,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01197,M49_092,VGB,VG,vg,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01198,M49_092,VGB,092,092,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01199,M49_850,VIR,"Virgin Islands, U.S.",virgin islands u s,canonical_name,1,True,
+ALIAS_01200,M49_850,VIR,Virgin Islands of the United States,virgin islands of the united states,official_name,2,True,
+ALIAS_01201,M49_850,VIR,VIR,vir,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01202,M49_850,VIR,VI,vi,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01203,M49_850,VIR,850,850,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01204,M49_704,VNM,Viet Nam,viet nam,canonical_name,1,True,
+ALIAS_01205,M49_704,VNM,Socialist Republic of Viet Nam,socialist republic of viet nam,official_name,2,True,
+ALIAS_01206,M49_704,VNM,Vietnam,vietnam,common_name,2,True,
+ALIAS_01207,M49_704,VNM,VNM,vnm,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01208,M49_704,VNM,VN,vn,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01209,M49_704,VNM,704,704,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01210,M49_704,VNM,Vietnam,vietnam,curated_alias,1,True,
+ALIAS_01211,M49_548,VUT,Vanuatu,vanuatu,canonical_name,1,True,
+ALIAS_01212,M49_548,VUT,Republic of Vanuatu,republic of vanuatu,official_name,2,True,
+ALIAS_01213,M49_548,VUT,VUT,vut,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01214,M49_548,VUT,VU,vu,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01215,M49_548,VUT,548,548,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01216,M49_876,WLF,Wallis and Futuna,wallis and futuna,canonical_name,1,True,
+ALIAS_01217,M49_876,WLF,WLF,wlf,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01218,M49_876,WLF,WF,wf,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01219,M49_876,WLF,876,876,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01220,M49_882,WSM,Samoa,samoa,canonical_name,1,True,
+ALIAS_01221,M49_882,WSM,Independent State of Samoa,independent state of samoa,official_name,2,True,
+ALIAS_01222,M49_882,WSM,WSM,wsm,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01223,M49_882,WSM,WS,ws,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01224,M49_882,WSM,882,882,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01225,M49_887,YEM,Yemen,yemen,canonical_name,1,True,
+ALIAS_01226,M49_887,YEM,Republic of Yemen,republic of yemen,official_name,2,True,
+ALIAS_01227,M49_887,YEM,YEM,yem,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01228,M49_887,YEM,YE,ye,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01229,M49_887,YEM,887,887,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01230,M49_710,ZAF,South Africa,south africa,canonical_name,1,True,
+ALIAS_01231,M49_710,ZAF,Republic of South Africa,republic of south africa,official_name,2,True,
+ALIAS_01232,M49_710,ZAF,ZAF,zaf,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01233,M49_710,ZAF,ZA,za,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01234,M49_710,ZAF,710,710,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01235,M49_894,ZMB,Zambia,zambia,canonical_name,1,True,
+ALIAS_01236,M49_894,ZMB,Republic of Zambia,republic of zambia,official_name,2,True,
+ALIAS_01237,M49_894,ZMB,ZMB,zmb,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01238,M49_894,ZMB,ZM,zm,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01239,M49_894,ZMB,894,894,m49_code,2,False,Numeric code; use only in structured fields.
+ALIAS_01240,M49_716,ZWE,Zimbabwe,zimbabwe,canonical_name,1,True,
+ALIAS_01241,M49_716,ZWE,Republic of Zimbabwe,republic of zimbabwe,official_name,2,True,
+ALIAS_01242,M49_716,ZWE,ZWE,zwe,iso_alpha3,1,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01243,M49_716,ZWE,ZW,zw,iso_alpha2,2,False,Use in structured fields; too short for unrestricted text matching.
+ALIAS_01244,M49_716,ZWE,716,716,m49_code,2,False,Numeric code; use only in structured fields.

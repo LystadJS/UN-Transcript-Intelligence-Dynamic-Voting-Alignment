@@ -1,0 +1,14 @@
+[
+  {
+    "track": "statements",
+    "status": "UNAVAILABLE",
+    "message": "No model artifact configured.",
+    "figure": null
+  },
+  {
+    "track": "votes",
+    "status": "UNAVAILABLE",
+    "message": "No model artifact configured.",
+    "figure": null
+  }
+]

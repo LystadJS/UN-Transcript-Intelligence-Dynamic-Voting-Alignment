@@ -1,0 +1,25 @@
+schema_version: 1
+track: statements
+issue_id: synthetic_geometry
+issue_label: Synthetic geometry test
+data_kind: SYNTHETIC
+data_as_of: '2026-09-09'
+periods:
+- '2026-08-09'
+- '2026-09-09'
+measurement_version: engineering-fixture-1
+measurement_description: Known geometric displacement; no substantive position estimation.
+preprocessing: None; second map rotated and translated.
+coordinate_units: synthetic coordinate units
+frame_justification: SYN_A, SYN_B and SYN_C are stable by construction.
+anchors:
+- SYN_A
+- SYN_B
+- SYN_C
+reference: previous
+scale: no
+label_entities:
+- SYN_A
+- SYN_D
+- SYN_F
+distance_reference: SYN_A

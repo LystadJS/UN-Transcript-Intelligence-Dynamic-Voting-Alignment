@@ -1,0 +1,80 @@
+{
+  "version": "cross-topic-codebook-1",
+  "status": "FROZEN_AT_ENGINE_FREEZE",
+  "issues": [
+    {
+      "issue_id": "ai_governance",
+      "title": "International governance of artificial intelligence",
+      "scope_pattern": "\\bartificial intelligence\\b|\\bAI\\b",
+      "other_scope_pattern": "\\b(?:Yemen|Sudan|Gaza)\\b",
+      "queries": [
+        "artificial intelligence"
+      ],
+      "propositions": [
+        {
+          "id": "international_cooperation",
+          "definition": "Endorse international cooperation, shared governance, dialogue, or rules for AI. Merely describing AI opportunities or risks is not support.",
+          "target_pattern": "\\b(?:cooperat(?:e|ion)|collaborat(?:e|ion)|governance|govern(?:ing)?|regulat(?:ion|e|ory)|rules?|framework|dialogue|multilateral(?:ism)?|global (?:efforts|approach))\\b"
+        },
+        {
+          "id": "inclusive_access",
+          "definition": "Endorse equitable access to AI, AI capacity building, or closing the AI/digital divide. Generic development statements without AI context are excluded.",
+          "target_pattern": "\\b(?:access|inclusi(?:ve|on|vity)|capacity[- ]building|digital divide|AI divide|equit(?:y|able)|developing countries)\\b"
+        }
+      ]
+    },
+    {
+      "issue_id": "yemen_security",
+      "title": "Yemen conflict and civilian security",
+      "scope_pattern": "\\b(?:Yemen|Yemeni|Houthis?|Houthi)\\b",
+      "other_scope_pattern": "\\b(?:Gaza|Sudan|Ukraine|Lebanon)\\b",
+      "queries": [
+        "Yemen"
+      ],
+      "propositions": [
+        {
+          "id": "negotiated_settlement",
+          "definition": "Endorse negotiations, a political process, peace talks, or a political settlement for Yemen. Generic regional peace and military victory are excluded.",
+          "target_pattern": "\\b(?:political (?:process|solution|settlement)|peace (?:process|talks)|negotiat(?:ion|ions|e|ed)|dialogue|road ?map)\\b"
+        },
+        {
+          "id": "release_detained_personnel",
+          "definition": "Demand or endorse release of detained UN, humanitarian, diplomatic or NGO personnel in Yemen. A report of detention or of a completed release alone is not support.",
+          "target_pattern": "\\breleas(?:e|ed|ing)\\b.{0,160}\\b(?:staff|personnel|workers|employees|detainees)\\b|\\b(?:staff|personnel|workers|employees|detainees)\\b.{0,120}\\breleas(?:e|ed)\\b"
+        }
+      ]
+    },
+    {
+      "issue_id": "development_finance",
+      "title": "International finance for development",
+      "scope_pattern": "\\b(?:development|SDGs?|sustainable development goals?|developing countries|debt|ODA)\\b",
+      "other_scope_pattern": "\\b(?:Gaza|Yemen|Ukraine)\\b",
+      "queries": [
+        "financing for development",
+        "development"
+      ],
+      "propositions": [
+        {
+          "id": "debt_relief",
+          "definition": "Endorse debt relief, restructuring, cancellation, or changes to sovereign debt architecture for developing countries. Describing debt burdens alone is not support.",
+          "target_pattern": "\\bdebt (?:relief|restructur(?:ing|e)|cancel(?:lation|ling)|sustainability|architecture|servic(?:e|ing))\\b"
+        },
+        {
+          "id": "concessional_finance",
+          "definition": "Endorse increased or sustained official development assistance, concessional finance, or grant funding for developing countries. Descriptions of financing gaps or private investment alone are excluded.",
+          "target_pattern": "\\b(?:official development assistance|ODA|concessional (?:financ(?:e|ing)|loans?|resources)|grants?)\\b"
+        }
+      ]
+    }
+  ],
+  "policy_pattern": "\\b(?:artificial intelligence|AI|development|financ\\w*|debt|ODA|Yemen|Yemeni|Houthis?|political|humanitarian|human rights|staff|personnel|war|peace|security)\\b|\\bvote[ds]? (?:against|in favou?r of)\\b",
+  "default_context": "Text anchors only; no topic inference from meeting title",
+  "reference_codes": [
+    "SUPPORT",
+    "OPPOSE",
+    "CONDITIONAL_SUPPORT",
+    "NO_EXPLICIT_POSITION",
+    "UNCLEAR"
+  ],
+  "abstention": "Operational review outcome; never a political position"
+}

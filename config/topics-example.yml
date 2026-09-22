@@ -1,0 +1,12 @@
+# Copy desired entries into settings.yml under topics. Empty topics = all topics.
+# These are screening terms, not trained classifiers or country-position coders.
+topics:
+  - id: ai_governance
+    label: Emerging Technology and AI
+    pattern: '\bartificial intelligence\b|\bAI\b|\bmachine learning\b'
+  - id: development_finance
+    label: Development finance
+    pattern: '\bfinanc(?:e|ing|ial)\b|\bdebt\b|\bdevelopment bank\b'
+  - id: humanitarian
+    label: Humanitarian affairs
+    pattern: '\bhumanitarian\b|\bdisplacement\b|\bfood insecurity\b'

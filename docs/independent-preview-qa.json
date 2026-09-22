@@ -1,0 +1,53 @@
+{
+  "check": "Independent MIME, quotation and model-hash validation",
+  "results": [
+    {
+      "demo": "demo",
+      "run_id": "20260922T184334Z_3314774ad4",
+      "counts": {
+        "inventory_rows": 11,
+        "in_scope": 11,
+        "collected_meetings": 9,
+        "statements": 548,
+        "evidence_sentences": 5327,
+        "statement_summaries": 548,
+        "meeting_summaries": 9,
+        "daily_summaries": 1,
+        "unavailable": 2
+      },
+      "displayed_quotes": {
+        "email-preview.html": 7,
+        "full-report.html": 35
+      },
+      "mime_images": 0,
+      "mime_attachments": 1,
+      "html_bytes": 15162,
+      "preview_bytes": 15212,
+      "passed": true
+    },
+    {
+      "demo": "drift-demo",
+      "run_id": "20260922T184404Z_8edbe3ebb6",
+      "counts": {
+        "inventory_rows": 11,
+        "in_scope": 11,
+        "collected_meetings": 9,
+        "statements": 548,
+        "evidence_sentences": 5327,
+        "statement_summaries": 548,
+        "meeting_summaries": 9,
+        "daily_summaries": 1,
+        "unavailable": 2
+      },
+      "displayed_quotes": {
+        "email-preview.html": 7,
+        "full-report.html": 35
+      },
+      "mime_images": 1,
+      "mime_attachments": 1,
+      "html_bytes": 17179,
+      "preview_bytes": 81517,
+      "passed": true
+    }
+  ]
+}

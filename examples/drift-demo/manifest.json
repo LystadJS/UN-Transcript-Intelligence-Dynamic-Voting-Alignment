@@ -1,0 +1,349 @@
+{
+  "project_version": "0.2.0",
+  "run_id": "20260922T184404Z_8edbe3ebb6",
+  "status": "COMPLETE",
+  "started_at_utc": "2026-09-22T18:44:04.138Z",
+  "finished_at_utc": "2026-09-22T18:44:34.852Z",
+  "dates": [
+    "2026-09-09"
+  ],
+  "locale": "en",
+  "timezone": "America/New_York",
+  "scope": "UN Transcripts inventory; not a census of all UN meetings",
+  "configuration": {
+    "project_version": "0.2.0",
+    "locale": "en",
+    "timezone": "America/New_York",
+    "lookback_days": 3,
+    "include_today": false,
+    "output_root": "output/drift-demo",
+    "categories": [],
+    "topics": [],
+    "http": {
+      "timeout_seconds": 45,
+      "max_attempts": 3,
+      "request_interval_seconds": 0.5,
+      "max_response_bytes": 52428800,
+      "max_pages": 100
+    },
+    "summary": {
+      "excerpt_target_words": 120,
+      "meeting_highlights": 5
+    },
+    "storage": {
+      "duckdb": true,
+      "parquet": true
+    },
+    "email": {
+      "from": "LystadJS@gmail.com",
+      "to": "",
+      "subject_prefix": "[DEMO] UN Daily Meeting Intelligence",
+      "mode": "preview"
+    },
+    "report": {
+      "headline_excerpts": 3,
+      "meeting_cards": 4
+    },
+    "models": {
+      "statements": {
+        "artifact_dir": "/workspace/scratch/c2c40eb4e980/UN_Transcript_R/output/drift-demo/model-20260922T184402_file11a7651c4356",
+        "max_age_days": 45,
+        "allow_synthetic": true
+      },
+      "votes": {
+        "artifact_dir": "",
+        "max_age_days": 120,
+        "allow_synthetic": false
+      }
+    }
+  },
+  "configuration_sha256": "e84e9c47d1c359f363f260bee0357b4d7e81e7565c39bccc5b31d516f5b517f2",
+  "code_and_registry_hashes": {
+    "data/registries/country_aliases.csv": "b6c645ef2636eff91813d3445953f5e7edaddda943c7bfb840415734197a23ab",
+    "data/registries/country_registry.csv": "cc18d104aee68bdab2b6c9b848e81f33ed432501a96ada910b9aa8d2ee52e9dd",
+    "R/01_common.R": "830999c546b256042ab130bdf8dd2a9434023219921730031df911c46c3a6524",
+    "R/02_collect.R": "de77329685372e5b0202ebe65341f16e87e4895051fa17bdd85d556aeb1c596c",
+    "R/03_parse.R": "888a76ec512f76d70503512a6b8366a08bd24f6c7b5a261bc2075479cc63bb77",
+    "R/04_summarize.R": "e70719e07943da1105f01aaee22d50331a787db4bdf50fa84dfe61612c234e74",
+    "R/05_briefing.R": "167898600cee5dc2eba6ab52e213a84f80cc62e19786ad738cc37841d5ffa712",
+    "R/05_report.R": "95b25aab2886bc192944157037e640c9422486e965fa560853b0d42d5c5b3e37",
+    "R/06_pipeline.R": "3fd60b0561c7c8fd6552b95786206b3c85f5ff01be9f337fd42bc1df8f0175b8",
+    "R/07_drift_adapter.R": "62faf3aad1cce8fc8a299920643efdb003cfde615873db172bb6a8597ec6f7e4",
+    "run.R": "35fc0947cae3252ef500bdf256eaa9d608352d1a8eca8ba9c9c0cf3d12edc9b3"
+  },
+  "runtime": {
+    "r_version": "R version 4.5.3 (2026-03-11)",
+    "platform": "x86_64-pc-linux-gnu"
+  },
+  "day_coverage": [
+    {
+      "date": "2026-09-09",
+      "inventory_complete": true,
+      "expected": 11,
+      "observed": 11,
+      "valid_rows": 11,
+      "malformed_rows": 0
+    }
+  ],
+  "counts": {
+    "inventory_rows": 11,
+    "in_scope": 11,
+    "collected_meetings": 9,
+    "statements": 548,
+    "evidence_sentences": 5327,
+    "statement_summaries": 548,
+    "meeting_summaries": 9,
+    "daily_summaries": 1,
+    "unavailable": 2
+  },
+  "verification": {
+    "quotation_fidelity": "PASS",
+    "contiguous_excerpts": "PASS",
+    "evidence_lineage": "PASS",
+    "upstream_transcription_accuracy": "NOT_MEASURED",
+    "independent_speaker_identity": "NOT_VERIFIED"
+  },
+  "database": {
+    "path": "/workspace/scratch/c2c40eb4e980/UN_Transcript_R/output/drift-demo/database/transcripts.duckdb",
+    "status": "COMPLETE",
+    "parquet": true
+  },
+  "requests": [
+    {
+      "url": "https://transcripts.un.org/en/meetings.json?date=2026-09-09&page=1&xlang=1",
+      "kind": "inventory",
+      "date": "2026-09-09",
+      "slug": "",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:04.251Z",
+      "sha256": "64bea49060eaa59c477ec924036f662cebe443dc2c8c875099f6504cd03e7ed1",
+      "path": "raw/64/64bea49060eaa59c477ec924036f662cebe443dc2c8c875099f6504cd03e7ed1.json",
+      "bytes": 3985
+    },
+    {
+      "url": "https://transcripts.un.org/en/hrc/63/5.json",
+      "kind": "detail",
+      "date": "2026-09-09",
+      "slug": "hrc/63/5",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:04.413Z",
+      "sha256": "45a309f311ec319217bb48485bbaa561826f68066768e827e6979c1abc0820c8",
+      "path": "raw/45/45a309f311ec319217bb48485bbaa561826f68066768e827e6979c1abc0820c8.json",
+      "bytes": 1769222
+    },
+    {
+      "url": "https://transcripts.un.org/en/hrc/63/5.txt",
+      "kind": "txt",
+      "date": "2026-09-09",
+      "slug": "hrc/63/5",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:09.877Z",
+      "sha256": "0fe225c58163c6966b7da9a57a09beeeaa3ddb58d35e5f8fc6e052772f419e03",
+      "path": "raw/0f/0fe225c58163c6966b7da9a57a09beeeaa3ddb58d35e5f8fc6e052772f419e03.txt",
+      "bytes": 161582
+    },
+    {
+      "url": "https://transcripts.un.org/en/hrc/63/6.json",
+      "kind": "detail",
+      "date": "2026-09-09",
+      "slug": "hrc/63/6",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:09.888Z",
+      "sha256": "c8307835ef9eed4e4e1bc285896d0cfa34aaa49395efd14413705f2d68b96334",
+      "path": "raw/c8/c8307835ef9eed4e4e1bc285896d0cfa34aaa49395efd14413705f2d68b96334.json",
+      "bytes": 1701304
+    },
+    {
+      "url": "https://transcripts.un.org/en/hrc/63/6.txt",
+      "kind": "txt",
+      "date": "2026-09-09",
+      "slug": "hrc/63/6",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:15.191Z",
+      "sha256": "e8071195f95c4c693bc75731569120187d6d481a8e022c3ac0c5a99c0b44f909",
+      "path": "raw/e8/e8071195f95c4c693bc75731569120187d6d481a8e022c3ac0c5a99c0b44f909.txt",
+      "bytes": 148755
+    },
+    {
+      "url": "https://transcripts.un.org/en/asset/k1u/k1uxv7ijo5.json",
+      "kind": "detail",
+      "date": "2026-09-09",
+      "slug": "asset/k1u/k1uxv7ijo5",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:15.200Z",
+      "sha256": "1544b67e81ceeb1294d87fded20e84a9d6b3ddc3e5de8d8dd14884d62e281a2b",
+      "path": "raw/15/1544b67e81ceeb1294d87fded20e84a9d6b3ddc3e5de8d8dd14884d62e281a2b.json",
+      "bytes": 101265
+    },
+    {
+      "url": "https://transcripts.un.org/en/asset/k1u/k1uxv7ijo5.txt",
+      "kind": "txt",
+      "date": "2026-09-09",
+      "slug": "asset/k1u/k1uxv7ijo5",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:15.434Z",
+      "sha256": "aee385e8924c13aea1edaf17365e9a2de2a7cb6f52712003a6dd235867e7326c",
+      "path": "raw/ae/aee385e8924c13aea1edaf17365e9a2de2a7cb6f52712003a6dd235867e7326c.txt",
+      "bytes": 9564
+    },
+    {
+      "url": "https://transcripts.un.org/en/asset/k1h/k1ho7m57as.json",
+      "kind": "detail",
+      "date": "2026-09-09",
+      "slug": "asset/k1h/k1ho7m57as",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:15.441Z",
+      "sha256": "ee39618c30d14c7efbeef06f815232f47c7def8d7f78fdc9f4d98bf8381c01fa",
+      "path": "raw/ee/ee39618c30d14c7efbeef06f815232f47c7def8d7f78fdc9f4d98bf8381c01fa.json",
+      "bytes": 1606967
+    },
+    {
+      "url": "https://transcripts.un.org/en/asset/k1h/k1ho7m57as.txt",
+      "kind": "txt",
+      "date": "2026-09-09",
+      "slug": "asset/k1h/k1ho7m57as",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:19.570Z",
+      "sha256": "be1ad90d41c39f7c5023b7ce2813bbaeb31f2c3b6ef9e6b509a4432fc185ea95",
+      "path": "raw/be/be1ad90d41c39f7c5023b7ce2813bbaeb31f2c3b6ef9e6b509a4432fc185ea95.txt",
+      "bytes": 141095
+    },
+    {
+      "url": "https://transcripts.un.org/en/asset/k1w/k1wlibjsjy.json",
+      "kind": "detail",
+      "date": "2026-09-09",
+      "slug": "asset/k1w/k1wlibjsjy",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:19.581Z",
+      "sha256": "bda18a573f65bf53cb48dcc27ce6cf79a6810121c641ee639f11741ba524d240",
+      "path": "raw/bd/bda18a573f65bf53cb48dcc27ce6cf79a6810121c641ee639f11741ba524d240.json",
+      "bytes": 877238
+    },
+    {
+      "url": "https://transcripts.un.org/en/asset/k1w/k1wlibjsjy.txt",
+      "kind": "txt",
+      "date": "2026-09-09",
+      "slug": "asset/k1w/k1wlibjsjy",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:22.703Z",
+      "sha256": "27c70965d32e82f183c1f2b3d6fc5719b2a5395deb96bc634dfc429d86bbac2b",
+      "path": "raw/27/27c70965d32e82f183c1f2b3d6fc5719b2a5395deb96bc634dfc429d86bbac2b.txt",
+      "bytes": 80283
+    },
+    {
+      "url": "https://transcripts.un.org/en/asset/k1i/k1ink204sx.json",
+      "kind": "detail",
+      "date": "2026-09-09",
+      "slug": "asset/k1i/k1ink204sx",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:22.710Z",
+      "sha256": "814c6bff1a49d5c9ae66be77f6c0c0a619c3f753dd880442ef8d3ff8c767dda5",
+      "path": "raw/81/814c6bff1a49d5c9ae66be77f6c0c0a619c3f753dd880442ef8d3ff8c767dda5.json",
+      "bytes": 641689
+    },
+    {
+      "url": "https://transcripts.un.org/en/asset/k1i/k1ink204sx.txt",
+      "kind": "txt",
+      "date": "2026-09-09",
+      "slug": "asset/k1i/k1ink204sx",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:24.173Z",
+      "sha256": "94b70699febf589bf651a27b26a81196c17927a7553bff7a017b59e542f02f6c",
+      "path": "raw/94/94b70699febf589bf651a27b26a81196c17927a7553bff7a017b59e542f02f6c.txt",
+      "bytes": 59584
+    },
+    {
+      "url": "https://transcripts.un.org/en/asset/k13/k13jpppfje.json",
+      "kind": "detail",
+      "date": "2026-09-09",
+      "slug": "asset/k13/k13jpppfje",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:24.178Z",
+      "sha256": "5ad687941a6c27046287436313a8065372603dbcc0d91946862cdbacf7063443",
+      "path": "raw/5a/5ad687941a6c27046287436313a8065372603dbcc0d91946862cdbacf7063443.json",
+      "bytes": 55191
+    },
+    {
+      "url": "https://transcripts.un.org/en/asset/k13/k13jpppfje.txt",
+      "kind": "txt",
+      "date": "2026-09-09",
+      "slug": "asset/k13/k13jpppfje",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:24.419Z",
+      "sha256": "41b3e6b529b5a9c0d1d69c31f4a052ec929a1c08cd16ff48ad2e2f5559d786d1",
+      "path": "raw/41/41b3e6b529b5a9c0d1d69c31f4a052ec929a1c08cd16ff48ad2e2f5559d786d1.txt",
+      "bytes": 4824
+    },
+    {
+      "url": "https://transcripts.un.org/en/briefing/sg/2026-09-09.json",
+      "kind": "detail",
+      "date": "2026-09-09",
+      "slug": "briefing/sg/2026-09-09",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:24.420Z",
+      "sha256": "fc5ee68fde14364ac6853543aab995bb04469911378eb601809114b233e8df6d",
+      "path": "raw/fc/fc5ee68fde14364ac6853543aab995bb04469911378eb601809114b233e8df6d.json",
+      "bytes": 322556
+    },
+    {
+      "url": "https://transcripts.un.org/en/briefing/sg/2026-09-09.txt",
+      "kind": "txt",
+      "date": "2026-09-09",
+      "slug": "briefing/sg/2026-09-09",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:25.472Z",
+      "sha256": "2344564d9ec8e85ad38540b3e06a1546c1c73c3c4a0eb36d3ac844bba428d941",
+      "path": "raw/23/2344564d9ec8e85ad38540b3e06a1546c1c73c3c4a0eb36d3ac844bba428d941.txt",
+      "bytes": 29357
+    },
+    {
+      "url": "https://transcripts.un.org/en/asset/k15/k1561apa1e.json",
+      "kind": "detail",
+      "date": "2026-09-09",
+      "slug": "asset/k15/k1561apa1e",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:25.477Z",
+      "sha256": "526655ccd95cb37d5684e2e18e1ca3444d2aa5d7d47029abaf75f4b3fb3e3a00",
+      "path": "raw/52/526655ccd95cb37d5684e2e18e1ca3444d2aa5d7d47029abaf75f4b3fb3e3a00.json",
+      "bytes": 216051
+    },
+    {
+      "url": "https://transcripts.un.org/en/asset/k15/k1561apa1e.txt",
+      "kind": "txt",
+      "date": "2026-09-09",
+      "slug": "asset/k15/k1561apa1e",
+      "status": "HTTP_SUCCESS",
+      "retrieved_at_utc": "2026-09-22T18:44:26.119Z",
+      "sha256": "bc0e5dcba8d464d7ebedb0eef574977fb71291d921f2950a81becb77d7be7637",
+      "path": "raw/bc/bc0e5dcba8d464d7ebedb0eef574977fb71291d921f2950a81becb77d7be7637.txt",
+      "bytes": 20261
+    }
+  ],
+  "errors": [],
+  "email": {
+    "path": "/workspace/scratch/c2c40eb4e980/UN_Transcript_R/output/drift-demo/runs/20260922T184404Z_8edbe3ebb6/email-preview.html",
+    "subject": "[DEMO] UN Daily Meeting Intelligence | 2026-09-09",
+    "html_bytes": 81517,
+    "full_report": "/workspace/scratch/c2c40eb4e980/UN_Transcript_R/output/drift-demo/runs/20260922T184404Z_8edbe3ebb6/full-report.html",
+    "model_status": {
+      "statements": "DESCRIPTIVE",
+      "votes": "UNAVAILABLE"
+    },
+    "mode": "PREVIEW_ONLY",
+    "sent": false
+  },
+  "report_regenerated_at_utc": "2026-09-22T18:50:51.243Z",
+  "report_code_hashes": {
+    "data/registries/country_aliases.csv": "b6c645ef2636eff91813d3445953f5e7edaddda943c7bfb840415734197a23ab",
+    "data/registries/country_registry.csv": "cc18d104aee68bdab2b6c9b848e81f33ed432501a96ada910b9aa8d2ee52e9dd",
+    "R/01_common.R": "830999c546b256042ab130bdf8dd2a9434023219921730031df911c46c3a6524",
+    "R/02_collect.R": "de77329685372e5b0202ebe65341f16e87e4895051fa17bdd85d556aeb1c596c",
+    "R/03_parse.R": "888a76ec512f76d70503512a6b8366a08bd24f6c7b5a261bc2075479cc63bb77",
+    "R/04_summarize.R": "e70719e07943da1105f01aaee22d50331a787db4bdf50fa84dfe61612c234e74",
+    "R/05_briefing.R": "7de6db1c839a827185215116b0bfa69f44a1216180461aa04573da7e89608112",
+    "R/05_report.R": "95b25aab2886bc192944157037e640c9422486e965fa560853b0d42d5c5b3e37",
+    "R/06_pipeline.R": "3fd60b0561c7c8fd6552b95786206b3c85f5ff01be9f337fd42bc1df8f0175b8",
+    "R/07_drift_adapter.R": "62faf3aad1cce8fc8a299920643efdb003cfde615873db172bb6a8597ec6f7e4",
+    "run.R": "35fc0947cae3252ef500bdf256eaa9d608352d1a8eca8ba9c9c0cf3d12edc9b3"
+  }
+}

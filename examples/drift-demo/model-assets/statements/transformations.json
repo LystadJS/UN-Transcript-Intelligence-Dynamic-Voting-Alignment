@@ -1,0 +1,40 @@
+[
+  {
+    "time": "2026-08-09",
+    "reference_time": "2026-08-09",
+    "n_shared": 0,
+    "n_matched": 0,
+    "scale": 1,
+    "rss": 0,
+    "rmse": null,
+    "disparity": null,
+    "determinant": 1,
+    "condition_number": null,
+    "rotation": [
+      [1, 0],
+      [0, 1]
+    ],
+    "translation": [0, 0],
+    "matched_entities": [],
+    "singular_values": [null, null]
+  },
+  {
+    "time": "2026-09-09",
+    "reference_time": "2026-08-09",
+    "n_shared": 4,
+    "n_matched": 3,
+    "scale": 1,
+    "rss": 6.65601388780229e-31,
+    "rmse": 4.71027737605132e-16,
+    "disparity": 1.24800260396293e-31,
+    "determinant": 1,
+    "condition_number": 3,
+    "rotation": [
+      [5.55111512312578e-17, -1],
+      [1, 1.66533453693773e-16]
+    ],
+    "translation": [3, 5],
+    "matched_entities": ["SYN_A", "SYN_B", "SYN_C"],
+    "singular_values": [2.25, 0.75]
+  }
+]

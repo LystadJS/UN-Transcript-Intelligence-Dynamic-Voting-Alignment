@@ -1,0 +1,59 @@
+Collecting 2026-09-09 hrc/63/5
+Collecting 2026-09-09 hrc/63/6
+Collecting 2026-09-09 asset/k1u/k1uxv7ijo5
+Collecting 2026-09-09 asset/k1h/k1ho7m57as
+Collecting 2026-09-09 asset/k1w/k1wlibjsjy
+Collecting 2026-09-09 asset/k1i/k1ink204sx
+Collecting 2026-09-09 asset/k13/k13jpppfje
+Collecting 2026-09-09 briefing/sg/2026-09-09
+Collecting 2026-09-09 asset/k15/k1561apa1e
+duckdb keeps downloaded extensions and secrets in a temporary directory:
+ℹ /tmp/Rtmp8M5Vd1/duckdb
+This is removed when the R session ends.
+• Extensions are re-downloaded each session.
+• Secrets are lost.
+ℹ Run duckdb(shared_home = TRUE) (or create ~/.duckdb) to keep them (suitable for most users).
+ℹ Run duckdb(shared_home = FALSE) to accept the temporary directory (and silence this message).
+ℹ See ?duckdb_storage for details and alternatives.
+$status
+[1] "COMPLETE"
+
+$run_directory
+[1] "/workspace/scratch/c2c40eb4e980/UN_Transcript_R/output/drift-demo/runs/20260922T184404Z_8edbe3ebb6"
+
+$preview
+[1] "/workspace/scratch/c2c40eb4e980/UN_Transcript_R/output/drift-demo/runs/20260922T184404Z_8edbe3ebb6/email-preview.html"
+
+$counts
+$counts$inventory_rows
+[1] 11
+
+$counts$in_scope
+[1] 11
+
+$counts$collected_meetings
+[1] 9
+
+$counts$statements
+[1] 548
+
+$counts$evidence_sentences
+[1] 5327
+
+$counts$statement_summaries
+[1] 548
+
+$counts$meeting_summaries
+[1] 9
+
+$counts$daily_summaries
+[1] 1
+
+$counts$unavailable
+[1] 2
+
+
+$email_sent
+[1] FALSE
+
+Synthetic model only. No real opinion-change estimate and no email sent.

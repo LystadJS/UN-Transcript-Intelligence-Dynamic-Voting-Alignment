@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "adapter_version": "0.2.0",
+  "status": "DESCRIPTIVE",
+  "model_id": "drift_6e0d50f1233a3a4e79934e93",
+  "generated_at_utc": "2026-09-22T18:44:04.011Z",
+  "track": "statements",
+  "issue_id": "synthetic_geometry",
+  "issue_label": "Synthetic geometry test",
+  "data_kind": "SYNTHETIC",
+  "periods": [
+    "2026-08-09",
+    "2026-09-09"
+  ],
+  "data_as_of": "2026-09-09",
+  "specification": {
+    "schema_version": 1,
+    "track": "statements",
+    "issue_id": "synthetic_geometry",
+    "issue_label": "Synthetic geometry test",
+    "data_kind": "SYNTHETIC",
+    "data_as_of": "2026-09-09",
+    "periods": ["2026-08-09", "2026-09-09"],
+    "measurement_version": "engineering-fixture-1",
+    "measurement_description": "Known geometric displacement; no substantive position estimation.",
+    "preprocessing": "None; second map rotated and translated.",
+    "coordinate_units": "synthetic coordinate units",
+    "frame_justification": "SYN_A, SYN_B and SYN_C are stable by construction.",
+    "anchors": ["SYN_A", "SYN_B", "SYN_C"],
+    "reference": "previous",
+    "scale": false,
+    "label_entities": ["SYN_A", "SYN_D", "SYN_F"],
+    "distance_reference": "SYN_A"
+  },
+  "provenance": {
+    "inputs": {
+      "coordinates": "f2e8066b47e99ce723a267fa047591f7eade3bb7ed32a229e55cde87d0588c20",
+      "evidence": "581c3f785429895b791577cf5f9e54b3e6312afdf8dcf0dcc048e55928a088da",
+      "specification": "0217664879b319b42378054e8f6594f89fee26e6a292f566f91f2aad57e9c0f8"
+    },
+    "package_version": "0.0.5.9000",
+    "installed_package_hashes": {
+      "DESCRIPTION": "e40328a8e5887b540a69a0cdd2f32364269a6145487c9fb84274248c0947b29d",
+      "NAMESPACE": "544d31b73efcfd577b068c847303ff46ed0aaa472c5f3767c77f02e7aa9b3820",
+      "R/driftmapR.rdb": "7881c806fdc3a13b83751bac4d0ef5982cfc904149656f0072267b7f392c9114",
+      "R/driftmapR.rdx": "ef06234312f11b6487428cbe6b3773437cf98f488ad9f354b1b63e3e6ad6a8fb"
+    },
+    "r_version": "R version 4.5.3 (2026-03-11)"
+  },
+  "validation": {
+    "evidence_linkage": "STRUCTURAL_ONLY",
+    "measurement_validity": "NOT_ASSESSED_BY_ADAPTER",
+    "geometry": "PASSED",
+    "uncertainty": "NOT_ESTIMATED",
+    "inference": "NOT_VALIDATED",
+    "bootstrap_attempted": 0,
+    "bootstrap_successful": 0,
+    "bootstrap_failed": 0
+  },
+  "counts": {
+    "coordinate_rows": 10,
+    "entities": 6,
+    "paired_transitions": 4
+  },
+  "figure": {
+    "path": "movement.png",
+    "alt": "Synthetic geometry test - SYNTHETIC ENGINEERING EXAMPLE. Arrows show relative coordinate displacement across adjacent scheduled periods, not significant opinion changes. Uncertainty has not been estimated. Units: synthetic coordinate units.",
+    "caption": "SYNTHETIC ENGINEERING EXAMPLE. Arrows show relative coordinate displacement across adjacent scheduled periods, not significant opinion changes. Uncertainty has not been estimated. Units: synthetic coordinate units.",
+    "numerical_display_tolerance": 6.66133814775094e-14
+  },
+  "files": [
+    {
+      "path": "aligned.csv",
+      "sha256": "036eae0668cdba4498d1d9ad7c9984d421eb1937885b8a52a9b3e3905a90fed1",
+      "bytes": 375
+    },
+    {
+      "path": "comparability.csv",
+      "sha256": "7dad897d6781c282d1b0c896827d46711545809c713630c40c77b2a82c784a0f",
+      "bytes": 307
+    },
+    {
+      "path": "input-coordinates.csv",
+      "sha256": "f2e8066b47e99ce723a267fa047591f7eade3bb7ed32a229e55cde87d0588c20",
+      "bytes": 455
+    },
+    {
+      "path": "input-evidence.csv",
+      "sha256": "581c3f785429895b791577cf5f9e54b3e6312afdf8dcf0dcc048e55928a088da",
+      "bytes": 705
+    },
+    {
+      "path": "input-specification.yml",
+      "sha256": "0217664879b319b42378054e8f6594f89fee26e6a292f566f91f2aad57e9c0f8",
+      "bytes": 623
+    },
+    {
+      "path": "movement.csv",
+      "sha256": "69807babafd4d4ca4cb9f5342eeb52af040746e69fcc468ccf409bda9a9b8c90",
+      "bytes": 703
+    },
+    {
+      "path": "movement.png",
+      "sha256": "7b41d1a44fa1a98e61ac06644652f30738f93ba8c0eec2940799331740c89d93",
+      "bytes": 48223
+    },
+    {
+      "path": "reference-distance-changes.csv",
+      "sha256": "684a1eaa46be1486c8cbb005157983f56ed4c5e2f52afd03b263fac295ebaf24",
+      "bytes": 324
+    },
+    {
+      "path": "transformations.json",
+      "sha256": "9be0cd6c5c4d403faa2bc63ca11e1e42705ef8c5261d4d5808f9f86ac17901ee",
+      "bytes": 867
+    }
+  ]
+}
