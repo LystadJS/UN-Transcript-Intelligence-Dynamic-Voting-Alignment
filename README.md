@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/project-banner.svg" width="100%" alt="UN Transcript Intelligence & Dynamic Voting Alignment — reproducible evidence for computational diplomacy" />
+  <img src="docs/assets/project-banner.svg" width="100%" alt="UN Transcript Intelligence &amp; Dynamic Voting Alignment — USUN-themed banner with the existing seal" />
 </p>
 
 <p align="center">
